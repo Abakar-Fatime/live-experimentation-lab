@@ -1,0 +1,1240 @@
+{
+ "metric": "LIVE watch minutes per DAU",
+ "series": [
+  {
+   "date": "2026-09-24",
+   "value": 32.94401925355006,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-09-25",
+   "value": 32.87346625192631,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-09-26",
+   "value": 35.552479130109276,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-09-27",
+   "value": 35.493514889639755,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-09-28",
+   "value": 32.78165286891395,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-09-29",
+   "value": 32.86499152110568,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-09-30",
+   "value": 32.88244568921197,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-01",
+   "value": 32.838842625377104,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-02",
+   "value": 33.028307343970724,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-03",
+   "value": 35.62304516371294,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-04",
+   "value": 35.444330002287316,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-05",
+   "value": 32.86275180254253,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-06",
+   "value": 32.935735570658245,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-07",
+   "value": 32.894003731108064,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-08",
+   "value": 32.87626695175542,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-09",
+   "value": 32.99746201874685,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-10",
+   "value": 35.59495520825926,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-11",
+   "value": 35.506140937723934,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-12",
+   "value": 32.94697324577297,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-13",
+   "value": 33.02736403754973,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-14",
+   "value": 32.79782961118079,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-15",
+   "value": 32.9577662744729,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-16",
+   "value": 32.849294076024385,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-17",
+   "value": 35.617535214237805,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-18",
+   "value": 35.46956746185385,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-19",
+   "value": 33.002417947518985,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-20",
+   "value": 32.78709263645936,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-21",
+   "value": 32.948460390214265,
+   "baseline": null,
+   "residual_pct": null,
+   "robust_z": null,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-22",
+   "value": 32.931423633904096,
+   "baseline": 32.91014310265274,
+   "residual_pct": 0.0006466253028734048,
+   "robust_z": 0.9296567507895473,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-23",
+   "value": 32.93875389492587,
+   "baseline": 32.93546413533658,
+   "residual_pct": 9.988502289703938e-05,
+   "robust_z": 0.6244996758846568,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-24",
+   "value": 35.60481784259677,
+   "baseline": 35.606245211248535,
+   "residual_pct": -4.0087592591997456e-05,
+   "robust_z": 0.5463754997927328,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-25",
+   "value": 35.623195816124976,
+   "baseline": 35.4815411757468,
+   "residual_pct": 0.003992347448396716,
+   "robust_z": 2.7970347742571846,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-26",
+   "value": 32.946274515327346,
+   "baseline": 32.90486252415775,
+   "residual_pct": 0.0012585371277327173,
+   "robust_z": 1.2711886067959375,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-27",
+   "value": 32.84403228418592,
+   "baseline": 32.90036354588196,
+   "residual_pct": -0.0017121774845277882,
+   "robust_z": -0.386883085843609,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-28",
+   "value": 32.85471123769202,
+   "baseline": 32.88822471016002,
+   "residual_pct": -0.0010190112954817643,
+   "robust_z": 0.0,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-29",
+   "value": 32.89827753253939,
+   "baseline": 32.90384529282976,
+   "residual_pct": -0.00016921305825556843,
+   "robust_z": 0.4743055410925424,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-30",
+   "value": 32.99713601714029,
+   "baseline": 32.96810795683636,
+   "residual_pct": 0.0008804891182088159,
+   "robust_z": 1.0601852675780608,
+   "anomaly": false
+  },
+  {
+   "date": "2026-10-31",
+   "value": 35.56919422259315,
+   "baseline": 35.61117652841729,
+   "residual_pct": -0.0011789081383098976,
+   "robust_z": -0.089244664479576,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-01",
+   "value": 35.52842401881918,
+   "baseline": 35.48785419978889,
+   "residual_pct": 0.0011432029336542193,
+   "robust_z": 1.2068160946718467,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-02",
+   "value": 32.7857120591368,
+   "baseline": 32.94662388055016,
+   "residual_pct": -0.004884015491139815,
+   "robust_z": -2.1572095893376,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-03",
+   "value": 32.723656265434435,
+   "baseline": 32.88988392742208,
+   "residual_pct": -0.005054066543818236,
+   "robust_z": -2.252121714381849,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-04",
+   "value": 32.77744919089476,
+   "baseline": 32.87435748440004,
+   "residual_pct": -0.0029478384041808914,
+   "robust_z": -1.0765536398988689,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-05",
+   "value": 32.87700770309266,
+   "baseline": 32.91485058322174,
+   "residual_pct": -0.0011497205504062968,
+   "robust_z": -0.07295393325966808,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-06",
+   "value": 32.90117929825706,
+   "baseline": 32.96794495603308,
+   "residual_pct": -0.0020251689289416674,
+   "robust_z": -0.5615758186558407,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-07",
+   "value": 35.56818688378726,
+   "baseline": 35.59988652542802,
+   "residual_pct": -0.0008904422102051779,
+   "robust_z": 0.07175942110556868,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-08",
+   "value": 35.55514045150738,
+   "baseline": 35.517282478271554,
+   "residual_pct": 0.001065902867399382,
+   "robust_z": 1.1636719127408939,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-09",
+   "value": 32.91134390615231,
+   "baseline": 32.94662388055016,
+   "residual_pct": -0.0010708221432873533,
+   "robust_z": -0.028917654951962662,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-10",
+   "value": 32.93759447710261,
+   "baseline": 32.81556246032264,
+   "residual_pct": 0.0037187239111784454,
+   "robust_z": 2.6443148059273107,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-11",
+   "value": 32.65711759487969,
+   "baseline": 32.8262704244364,
+   "residual_pct": -0.005152971305286913,
+   "robust_z": -2.307324319365063,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-12",
+   "value": 32.84153357453365,
+   "baseline": 32.91485058322174,
+   "residual_pct": -0.0022274750572760516,
+   "robust_z": -0.6744907594765952,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-13",
+   "value": 32.88036822682757,
+   "baseline": 32.919966596591465,
+   "residual_pct": -0.0012028678597746367,
+   "robust_z": -0.10261751953615199,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-14",
+   "value": 35.54830644240237,
+   "baseline": 35.58700603259496,
+   "residual_pct": -0.0010874640636286959,
+   "robust_z": -0.03820615978351419,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-15",
+   "value": 35.5637639543294,
+   "baseline": 35.54178223516328,
+   "residual_pct": 0.0006184754332430042,
+   "robust_z": 0.9139452106123019,
+   "anomaly": false
+  },
+  {
+   "date": "2026-11-16",
+   "value": 31.56868858528356,
+   "baseline": 32.92880921073983,
+   "residual_pct": -0.04130488341536087,
+   "robust_z": -22.485116510212514,
+   "anomaly": true
+  },
+  {
+   "date": "2026-11-17",
+   "value": 31.753759562592638,
+   "baseline": 32.81556246032264,
+   "residual_pct": -0.03235668744102216,
+   "robust_z": -17.490779328172522,
+   "anomaly": true
+  },
+  {
+   "date": "2026-11-18",
+   "value": 31.612219250736864,
+   "baseline": 32.81608021429339,
+   "residual_pct": -0.03668509327424718,
+   "robust_z": -19.90663144560808,
+   "anomaly": true
+  },
+  {
+   "date": "2026-11-19",
+   "value": 31.73326238330095,
+   "baseline": 32.88764261781603,
+   "residual_pct": -0.03510072910758655,
+   "robust_z": -19.02233600883656,
+   "anomaly": true
+  },
+  {
+   "date": "2026-11-20",
+   "value": 31.589173939455108,
+   "baseline": 32.919966596591465,
+   "residual_pct": -0.04042509135699268,
+   "robust_z": -21.994070247683997,
+   "anomaly": true
+  },
+  {
+   "date": "2026-11-21",
+   "value": 34.21828619342035,
+   "baseline": 35.56869055319021,
+   "residual_pct": -0.03796609711427068,
+   "robust_z": -20.621609652043507,
+   "anomaly": true
+  },
+  {
+   "date": "2026-11-22",
+   "value": 34.066051790110535,
+   "baseline": 35.55945220291839,
+   "residual_pct": -0.04199728399317959,
+   "robust_z": -22.871572278568838,
+   "anomaly": true
+  }
+ ],
+ "first_alert_date": "2026-11-16",
+ "incident_start_truth": "2026-11-16",
+ "week_over_week": {
+  "previous": 33.66395942852241,
+  "current": 32.40577428986183,
+  "change_pct": -0.037374841225436994
+ },
+ "decomposition": {
+  "country": {
+   "top_share": 1.119120214458276,
+   "rows": [
+    {
+     "segment": "ID",
+     "contribution": -1.4080604222060589,
+     "rate_effect": -1.287154552234836,
+     "mix_effect": -0.12090586997122277,
+     "share_of_change": 1.119120214458276,
+     "segment_change_pct": -0.1950252746547767,
+     "rate_prev": 33.31132051613951,
+     "rate_cur": 26.814771083366104,
+     "weight_cur": 0.19611808337806672
+    },
+    {
+     "segment": "SA",
+     "contribution": -0.003394874376784906,
+     "rate_effect": -0.010737764415382522,
+     "mix_effect": 0.007342890038597616,
+     "share_of_change": 0.0026982311843223128,
+     "segment_change_pct": -0.004882970186302349,
+     "rate_prev": 36.53840381560848,
+     "rate_cur": 36.35998787912179,
+     "weight_cur": 0.06028461392372144
+    },
+    {
+     "segment": "EG",
+     "contribution": 0.0032795802065005257,
+     "rate_effect": -0.017415679737054938,
+     "mix_effect": 0.020695259943555463,
+     "share_of_change": -0.00260659588619193,
+     "segment_change_pct": -0.006413838277497641,
+     "rate_prev": 33.80517207369843,
+     "rate_cur": 33.58835116707475,
+     "weight_cur": 0.08062996117910666
+    },
+    {
+     "segment": "PH",
+     "contribution": 0.008379427945250269,
+     "rate_effect": -0.01097367882235149,
+     "mix_effect": 0.01935310676760176,
+     "share_of_change": -0.0066599323801985345,
+     "segment_change_pct": -0.0030697636939767126,
+     "rate_prev": 32.43426952846908,
+     "rate_cur": 32.33470398542993,
+     "weight_cur": 0.11051442981260737
+    },
+    {
+     "segment": "MX",
+     "contribution": 0.00912955388573978,
+     "rate_effect": -0.011102732357967595,
+     "mix_effect": 0.020232286243707376,
+     "share_of_change": -0.007256129169876135,
+     "segment_change_pct": -0.003685013046251684,
+     "rate_prev": 33.33215669431214,
+     "rate_cur": 33.209327262033895,
+     "weight_cur": 0.09069552046840419
+    },
+    {
+     "segment": "VN",
+     "contribution": 0.0213879620623725,
+     "rate_effect": 0.0032531326662494074,
+     "mix_effect": 0.01813482939612309,
+     "share_of_change": -0.016999057932873974,
+     "segment_change_pct": 0.0010601799126777056,
+     "rate_prev": 34.064409255558566,
+     "rate_cur": 34.10052365798854,
+     "weight_cur": 0.09034458400344839
+    },
+    {
+     "segment": "TH",
+     "contribution": 0.024355096034491933,
+     "rate_effect": 0.01066336319457328,
+     "mix_effect": 0.013691732839918654,
+     "share_of_change": -0.0193573229297711,
+     "segment_change_pct": 0.003648806132257487,
+     "rate_prev": 36.45760741484051,
+     "rate_cur": 36.590634156343214,
+     "weight_cur": 0.0803469800432536
+    },
+    {
+     "segment": "MY",
+     "contribution": 0.026095584042233506,
+     "rate_effect": 0.010632223284258897,
+     "mix_effect": 0.01546336075797461,
+     "share_of_change": -0.020740655123310133,
+     "segment_change_pct": 0.0044279448837072355,
+     "rate_prev": 34.20141376383216,
+     "rate_cur": 34.352855738923274,
+     "weight_cur": 0.07043214474392101
+    },
+    {
+     "segment": "NG",
+     "contribution": 0.027065047773292376,
+     "rate_effect": 0.004694688268120802,
+     "mix_effect": 0.022370359505171574,
+     "share_of_change": -0.02151118062172042,
+     "segment_change_pct": 0.0017599000159294054,
+     "rate_prev": 33.232319007691586,
+     "rate_cur": 33.290804566442596,
+     "weight_cur": 0.08060717654774573
+    },
+    {
+     "segment": "BR",
+     "contribution": 0.03357790597237724,
+     "rate_effect": 0.034553768009681955,
+     "mix_effect": -0.0009758620373047188,
+     "share_of_change": -0.02668757159866214,
+     "segment_change_pct": 0.007672618051235203,
+     "rate_prev": 32.15842021524969,
+     "rate_cur": 32.40515949069243,
+     "weight_cur": 0.1400265058997249
+    }
+   ]
+  },
+  "device": {
+   "top_share": 1.0818577375227774,
+   "rows": [
+    {
+     "segment": "android_low",
+     "contribution": -1.361177327496116,
+     "rate_effect": -1.2942527612986459,
+     "mix_effect": -0.06692456619747023,
+     "share_of_change": 1.0818577375227774,
+     "segment_change_pct": -0.08848936815568309,
+     "rate_prev": 30.113773635414688,
+     "rate_cur": 27.449024833633576,
+     "weight_cur": 0.48453146062706093
+    },
+    {
+     "segment": "ios",
+     "contribution": 0.03961494330014153,
+     "rate_effect": -0.003545630191797732,
+     "mix_effect": 0.04316057349193926,
+     "share_of_change": -0.03148578224530155,
+     "segment_change_pct": -0.0004541550982820608,
+     "rate_prev": 40.55700793345721,
+     "rate_cur": 40.53858876153316,
+     "weight_cur": 0.19302893907250077
+    },
+    {
+     "segment": "android_high",
+     "contribution": 0.06337724553539285,
+     "rate_effect": 0.019304030151462894,
+     "mix_effect": 0.044073215383929956,
+     "share_of_change": -0.05037195527747379,
+     "segment_change_pct": 0.001717535470161513,
+     "rate_prev": 34.92559709624143,
+     "rate_cur": 34.985583048070794,
+     "weight_cur": 0.3224396003004383
+    }
+   ]
+  },
+  "country_x_device": {
+   "top_share": 1.133808823276689,
+   "rows": [
+    {
+     "segment": "ID / android_low",
+     "contribution": -1.4265414115289852,
+     "rate_effect": -1.3125140733874876,
+     "mix_effect": -0.11402733814149763,
+     "share_of_change": 1.133808823276689,
+     "segment_change_pct": -0.3803330489238158,
+     "rate_prev": 32.0417267852414,
+     "rate_cur": 19.855199144226646,
+     "weight_cur": 0.10550486657804796
+    },
+    {
+     "segment": "SA / android_high",
+     "contribution": -0.018261847776682275,
+     "rate_effect": -0.014495648724187129,
+     "mix_effect": -0.003766199052495148,
+     "share_of_change": 0.01451443608380481,
+     "segment_change_pct": -0.017662195699547856,
+     "rate_prev": 34.131057216989085,
+     "rate_cur": 33.52822780499016,
+     "weight_cur": 0.023990356853162084
+    },
+    {
+     "segment": "EG / android_low",
+     "contribution": -0.010330065780989973,
+     "rate_effect": -0.018084545740110054,
+     "mix_effect": 0.00775447995912008,
+     "share_of_change": 0.00821029073033472,
+     "segment_change_pct": -0.013147938191489739,
+     "rate_prev": 31.111647222150886,
+     "rate_cur": 30.702593207438614,
+     "weight_cur": 0.04433610267352739
+    },
+    {
+     "segment": "MX / android_high",
+     "contribution": -0.009502504014798829,
+     "rate_effect": -0.007813989458997035,
+     "mix_effect": -0.0016885145558017934,
+     "share_of_change": 0.0075525482878575105,
+     "segment_change_pct": -0.007621096581148734,
+     "rate_prev": 37.971487715320734,
+     "rate_cur": 37.68210334011237,
+     "weight_cur": 0.026979793486212673
+    },
+    {
+     "segment": "VN / ios",
+     "contribution": -0.0036167530104414683,
+     "rate_effect": -0.006612094140694093,
+     "mix_effect": 0.002995341130252625,
+     "share_of_change": 0.002874579343936377,
+     "segment_change_pct": -0.013146057311854031,
+     "rate_prev": 37.17713625523973,
+     "rate_cur": 36.688403491337745,
+     "weight_cur": 0.013569609739121285
+    },
+    {
+     "segment": "MY / ios",
+     "contribution": -0.002995605705537276,
+     "rate_effect": -0.0013310502229024448,
+     "mix_effect": -0.001664555482634831,
+     "share_of_change": 0.0023808942050660854,
+     "segment_change_pct": -0.0013927420789889844,
+     "rate_prev": 38.77316851942835,
+     "rate_cur": 38.719167496095615,
+     "weight_cur": 0.02462713083632816
+    },
+    {
+     "segment": "PH / android_low",
+     "contribution": 0.00021974297012381395,
+     "rate_effect": -0.00499564851903577,
+     "mix_effect": 0.005215391489159584,
+     "share_of_change": -0.00017465074365585206,
+     "segment_change_pct": -0.002936832184282867,
+     "rate_prev": 28.040769877789323,
+     "rate_cur": 27.958418842340162,
+     "weight_cur": 0.0607559834401565
+    },
+    {
+     "segment": "MX / ios",
+     "contribution": 0.002573383950221058,
+     "rate_effect": 0.000662789709292849,
+     "mix_effect": 0.001910594240928209,
+     "share_of_change": -0.0020453142158081486,
+     "segment_change_pct": 0.0011503691879841682,
+     "rate_prev": 42.79344993311202,
+     "rate_cur": 42.84267819936262,
+     "weight_cur": 0.01348591109330559
+    },
+    {
+     "segment": "PH / ios",
+     "contribution": 0.00326490583232825,
+     "rate_effect": -0.006390247978201875,
+     "mix_effect": 0.009655153810530125,
+     "share_of_change": -0.002594932758309258,
+     "segment_change_pct": -0.00898446016622989,
+     "rate_prev": 43.131005290144714,
+     "rate_cur": 42.74349649118596,
+     "weight_cur": 0.016603021374973454
+    },
+    {
+     "segment": "BR / ios",
+     "contribution": 0.003549021147332322,
+     "rate_effect": 0.0008912164667423226,
+     "mix_effect": 0.0026578046805899994,
+     "share_of_change": -0.002820746357813802,
+     "segment_change_pct": 0.0011723585150575921,
+     "rate_prev": 36.03452343305294,
+     "rate_cur": 36.07676881343572,
+     "weight_cur": 0.021133044511006272
+    },
+    {
+     "segment": "EG / ios",
+     "contribution": 0.004012487942060906,
+     "rate_effect": 0.0018487565969235226,
+     "mix_effect": 0.0021637313451373834,
+     "share_of_change": -0.0031891077225188165,
+     "segment_change_pct": 0.0042074655504613645,
+     "rate_prev": 36.63255912326693,
+     "rate_cur": 36.78668935380332,
+     "weight_cur": 0.01202424045637816
+    },
+    {
+     "segment": "MY / android_low",
+     "contribution": 0.004664319626235702,
+     "rate_effect": 0.001870779536099166,
+     "mix_effect": 0.0027935400901365364,
+     "share_of_change": -0.003707180670724759,
+     "segment_change_pct": 0.0037905552574670764,
+     "rate_prev": 28.101948540876005,
+     "rate_cur": 28.208470529662694,
+     "weight_cur": 0.01761198862203266
+    },
+    {
+     "segment": "PH / android_high",
+     "contribution": 0.004894779142799132,
+     "rate_effect": -0.0016628219630331568,
+     "mix_effect": 0.006557601105832289,
+     "share_of_change": -0.0038903488782341612,
+     "segment_change_pct": -0.0014291240006263362,
+     "rate_prev": 35.19202264009163,
+     "rate_cur": 35.14172887590609,
+     "weight_cur": 0.033155424997477416
+    },
+    {
+     "segment": "TH / android_low",
+     "contribution": 0.005320704916570375,
+     "rate_effect": 0.0011731751395883463,
+     "mix_effect": 0.004147529776982029,
+     "share_of_change": -0.0042288728050265765,
+     "segment_change_pct": 0.0020146344302178765,
+     "rate_prev": 29.0086330887347,
+     "rate_cur": 29.067074879728825,
+     "weight_cur": 0.02014566620036778
+    },
+    {
+     "segment": "VN / android_low",
+     "contribution": 0.005323467130015054,
+     "rate_effect": -0.0006481818583921696,
+     "mix_effect": 0.005971648988407224,
+     "share_of_change": -0.0042310682000919,
+     "segment_change_pct": -0.00041314969936967483,
+     "rate_prev": 31.68730105251809,
+     "rate_cur": 31.674209453614406,
+     "weight_cur": 0.049605530275095525
+    },
+    {
+     "segment": "BR / android_high",
+     "contribution": 0.006661356795942934,
+     "rate_effect": 0.008750991437105365,
+     "mix_effect": -0.0020896346411624312,
+     "share_of_change": -0.005294417006891618,
+     "segment_change_pct": 0.006096009886581211,
+     "rate_prev": 34.11381945388929,
+     "rate_cur": 34.32177763454925,
+     "weight_cur": 0.04205000037531536
+    },
+    {
+     "segment": "SA / ios",
+     "contribution": 0.006766534500554568,
+     "rate_effect": 0.0021740722416951686,
+     "mix_effect": 0.004592462258859399,
+     "share_of_change": -0.005378011782715787,
+     "segment_change_pct": 0.002392340082581379,
+     "rate_prev": 43.17882815721854,
+     "rate_cur": 43.28212659853794,
+     "weight_cur": 0.021099631480176673
+    },
+    {
+     "segment": "NG / ios",
+     "contribution": 0.006898230157836945,
+     "rate_effect": -9.148312520590042e-05,
+     "mix_effect": 0.006989713283042845,
+     "share_of_change": -0.005482682910386691,
+     "segment_change_pct": -0.00018735022318261407,
+     "rate_prev": 40.68946609430545,
+     "rate_cur": 40.6818429137515,
+     "weight_cur": 0.012086549448263177
+    },
+    {
+     "segment": "NG / android_high",
+     "contribution": 0.00752754332330328,
+     "rate_effect": 0.004819374603177372,
+     "mix_effect": 0.002708168720125908,
+     "share_of_change": -0.005982858239222854,
+     "segment_change_pct": 0.005251123824608905,
+     "rate_prev": 37.95360055603209,
+     "rate_cur": 38.15289961214156,
+     "weight_cur": 0.02421720675432129
+    },
+    {
+     "segment": "SA / android_low",
+     "contribution": 0.008100438899342628,
+     "rate_effect": 0.0016635404547650323,
+     "mix_effect": 0.006436898444577596,
+     "share_of_change": -0.006438193116766573,
+     "segment_change_pct": 0.0035434505244495984,
+     "rate_prev": 31.108488553959905,
+     "rate_cur": 31.21871994404127,
+     "weight_cur": 0.01519462559038268
+    },
+    {
+     "segment": "TH / android_high",
+     "contribution": 0.008886618511845057,
+     "rate_effect": 0.00850035829552765,
+     "mix_effect": 0.0003862602163174069,
+     "share_of_change": -0.007063045205974493,
+     "segment_change_pct": 0.00767234937187089,
+     "rate_prev": 34.64273188125081,
+     "rate_cur": 34.90852302343982,
+     "weight_cur": 0.031986898903394956
+    },
+    {
+     "segment": "ID / ios",
+     "contribution": 0.009014965879709552,
+     "rate_effect": 0.0038849918324704337,
+     "mix_effect": 0.005129974047239119,
+     "share_of_change": -0.007165055127980985,
+     "segment_change_pct": 0.0031523949373719606,
+     "rate_prev": 40.912338770066505,
+     "rate_cur": 41.041310619681305,
+     "weight_cur": 0.03018538519345713
+    },
+    {
+     "segment": "ID / android_high",
+     "contribution": 0.009466023443217675,
+     "rate_effect": 0.0015859457783028762,
+     "mix_effect": 0.0078800776649148,
+     "share_of_change": -0.00752355369043285,
+     "segment_change_pct": 0.0008261571460819184,
+     "rate_prev": 31.83308674053753,
+     "rate_cur": 31.859385872630074,
+     "weight_cur": 0.06042783160656163
+    },
+    {
+     "segment": "EG / android_high",
+     "contribution": 0.009597158045429939,
+     "rate_effect": -0.001757748103705355,
+     "mix_effect": 0.011354906149135294,
+     "share_of_change": -0.007627778894008108,
+     "segment_change_pct": -0.001951431662451486,
+     "rate_prev": 37.348381987189285,
+     "rate_cur": 37.27549917203815,
+     "weight_cur": 0.02426961804920112
+    },
+    {
+     "segment": "TH / ios",
+     "contribution": 0.010147772606076738,
+     "rate_effect": 0.0004574883501981761,
+     "mix_effect": 0.009690284255878562,
+     "share_of_change": -0.008065404918770218,
+     "segment_change_pct": 0.00037120162701298476,
+     "rate_prev": 43.853352397220355,
+     "rate_cur": 43.86963083298018,
+     "weight_cur": 0.02821441493949086
+    },
+    {
+     "segment": "NG / android_low",
+     "contribution": 0.0126392742921521,
+     "rate_effect": 0.0003474284252918402,
+     "mix_effect": 0.01229184586686026,
+     "share_of_change": -0.010045639472110835,
+     "segment_change_pct": 0.00027544745093077694,
+     "rate_prev": 28.60882672151428,
+     "rate_cur": 28.61670694990884,
+     "weight_cur": 0.04430342034516126
+    },
+    {
+     "segment": "MX / android_low",
+     "contribution": 0.016058673950317463,
+     "rate_effect": -0.0011097262839498418,
+     "mix_effect": 0.017168400234267304,
+     "share_of_change": -0.012763363241925426,
+     "segment_change_pct": -0.0007870185897943527,
+     "rate_prev": 28.242703357790802,
+     "rate_cur": 28.220475825222174,
+     "weight_cur": 0.05022981588888593
+    },
+    {
+     "segment": "VN / android_high",
+     "contribution": 0.01968124794279924,
+     "rate_effect": 0.009954991808594625,
+     "mix_effect": 0.009726256134204614,
+     "share_of_change": -0.01564256907671871,
+     "segment_change_pct": 0.009986027684056431,
+     "rate_prev": 36.869765807151026,
+     "rate_cur": 37.23794830920591,
+     "weight_cur": 0.02716944398923157
+    },
+    {
+     "segment": "BR / android_low",
+     "contribution": 0.02336752802910172,
+     "rate_effect": 0.02466175505510294,
+     "mix_effect": -0.0012942270260012192,
+     "share_of_change": -0.018572408233956512,
+     "segment_change_pct": 0.010685672260419832,
+     "rate_prev": 30.025764400173234,
+     "rate_cur": 30.346609877922063,
+     "weight_cur": 0.07684346101340328
+    },
+    {
+     "segment": "MY / android_high",
+     "contribution": 0.02442687012153445,
+     "rate_effect": 0.010929482025775924,
+     "mix_effect": 0.013497388095758525,
+     "share_of_change": -0.01941436865765096,
+     "segment_change_pct": 0.011486830790054414,
+     "rate_prev": 33.98675636307881,
+     "rate_cur": 34.377156482524306,
+     "weight_cur": 0.028193025285560183
+    }
+   ]
+  }
+ },
+ "most_concentrated_dimension": "country",
+ "root_cause": {
+  "segment": "ID / android_low",
+  "share_of_change": 1.133808823276689,
+  "segment_change_pct": -0.3803330489238158,
+  "country_name": "Indonesia"
+ },
+ "truth": {
+  "incident_start": "2026-11-16",
+  "segment": {
+   "country": "ID",
+   "device": "android_low"
+  },
+  "cause": "Android app v8.3 video player bug"
+ },
+ "found_correct_segment": true,
+ "segment_series": [
+  {
+   "date": "2026-09-24",
+   "value": 31.58304176348566
+  },
+  {
+   "date": "2026-09-25",
+   "value": 31.157793393858142
+  },
+  {
+   "date": "2026-09-26",
+   "value": 34.25206467127401
+  },
+  {
+   "date": "2026-09-27",
+   "value": 33.77021436316623
+  },
+  {
+   "date": "2026-09-28",
+   "value": 30.85042651529956
+  },
+  {
+   "date": "2026-09-29",
+   "value": 31.085029721079103
+  },
+  {
+   "date": "2026-09-30",
+   "value": 31.181193177210513
+  },
+  {
+   "date": "2026-10-01",
+   "value": 30.779447640547627
+  },
+  {
+   "date": "2026-10-02",
+   "value": 31.97244172889794
+  },
+  {
+   "date": "2026-10-03",
+   "value": 33.61094195564254
+  },
+  {
+   "date": "2026-10-04",
+   "value": 34.11824581116362
+  },
+  {
+   "date": "2026-10-05",
+   "value": 31.51137730955373
+  },
+  {
+   "date": "2026-10-06",
+   "value": 31.0229352839435
+  },
+  {
+   "date": "2026-10-07",
+   "value": 30.92206565556138
+  },
+  {
+   "date": "2026-10-08",
+   "value": 30.61696590496917
+  },
+  {
+   "date": "2026-10-09",
+   "value": 31.952478546589273
+  },
+  {
+   "date": "2026-10-10",
+   "value": 33.91294243832678
+  },
+  {
+   "date": "2026-10-11",
+   "value": 33.94712865472545
+  },
+  {
+   "date": "2026-10-12",
+   "value": 31.070355819957346
+  },
+  {
+   "date": "2026-10-13",
+   "value": 31.469580850076728
+  },
+  {
+   "date": "2026-10-14",
+   "value": 30.97841177886034
+  },
+  {
+   "date": "2026-10-15",
+   "value": 31.159316369294974
+  },
+  {
+   "date": "2026-10-16",
+   "value": 31.369142713941134
+  },
+  {
+   "date": "2026-10-17",
+   "value": 34.551706825243315
+  },
+  {
+   "date": "2026-10-18",
+   "value": 33.74724081855028
+  },
+  {
+   "date": "2026-10-19",
+   "value": 31.491285051174604
+  },
+  {
+   "date": "2026-10-20",
+   "value": 31.192117047217913
+  },
+  {
+   "date": "2026-10-21",
+   "value": 31.235279474390776
+  },
+  {
+   "date": "2026-10-22",
+   "value": 31.715531676740543
+  },
+  {
+   "date": "2026-10-23",
+   "value": 30.942738952483094
+  },
+  {
+   "date": "2026-10-24",
+   "value": 33.72392702774001
+  },
+  {
+   "date": "2026-10-25",
+   "value": 33.882231337026745
+  },
+  {
+   "date": "2026-10-26",
+   "value": 31.252038521171357
+  },
+  {
+   "date": "2026-10-27",
+   "value": 31.07016326174262
+  },
+  {
+   "date": "2026-10-28",
+   "value": 31.31854447065353
+  },
+  {
+   "date": "2026-10-29",
+   "value": 31.464888462971835
+  },
+  {
+   "date": "2026-10-30",
+   "value": 30.862481551067958
+  },
+  {
+   "date": "2026-10-31",
+   "value": 34.40183849526234
+  },
+  {
+   "date": "2026-11-01",
+   "value": 34.46402515774509
+  },
+  {
+   "date": "2026-11-02",
+   "value": 31.092413229611726
+  },
+  {
+   "date": "2026-11-03",
+   "value": 31.222083029607287
+  },
+  {
+   "date": "2026-11-04",
+   "value": 31.04556506849315
+  },
+  {
+   "date": "2026-11-05",
+   "value": 31.320988997597578
+  },
+  {
+   "date": "2026-11-06",
+   "value": 30.822426294993704
+  },
+  {
+   "date": "2026-11-07",
+   "value": 33.7172193098125
+  },
+  {
+   "date": "2026-11-08",
+   "value": 33.95983078097341
+  },
+  {
+   "date": "2026-11-09",
+   "value": 31.826685676381146
+  },
+  {
+   "date": "2026-11-10",
+   "value": 31.259136038561287
+  },
+  {
+   "date": "2026-11-11",
+   "value": 30.267767696509235
+  },
+  {
+   "date": "2026-11-12",
+   "value": 31.42944438496949
+  },
+  {
+   "date": "2026-11-13",
+   "value": 31.058236236271473
+  },
+  {
+   "date": "2026-11-14",
+   "value": 34.03781704166433
+  },
+  {
+   "date": "2026-11-15",
+   "value": 34.10234462829707
+  },
+  {
+   "date": "2026-11-16",
+   "value": 19.28544131233241
+  },
+  {
+   "date": "2026-11-17",
+   "value": 19.762234819865267
+  },
+  {
+   "date": "2026-11-18",
+   "value": 19.357312164579607
+  },
+  {
+   "date": "2026-11-19",
+   "value": 19.23608263253453
+  },
+  {
+   "date": "2026-11-20",
+   "value": 19.62339235956688
+  },
+  {
+   "date": "2026-11-21",
+   "value": 20.79799874134676
+  },
+  {
+   "date": "2026-11-22",
+   "value": 20.772912191831278
+  }
+ ]
+}

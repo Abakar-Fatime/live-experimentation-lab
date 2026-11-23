@@ -1,0 +1,2123 @@
+[
+ {
+  "id": "EXP-101",
+  "key": "gift_panel_v2",
+  "name": "Gift panel redesign",
+  "hypothesis": "A larger, scrollable gift panel with recent gifts pinned will make gifting easier and increase gifts per viewer.",
+  "owner_team": "LIVE Monetisation",
+  "primary": "gifts",
+  "n_users": 120000,
+  "days": 14,
+  "srm": {
+   "n_control": 59904,
+   "n_treatment": 60096,
+   "treatment_share": 0.5008,
+   "chi2": 0.3072,
+   "p_value": 0.5794034813424266,
+   "passed": true
+  },
+  "metrics": [
+   {
+    "metric": "gifts",
+    "control_mean": 1.0682759081196582,
+    "treatment_mean": 1.1188764643237488,
+    "abs_diff": 0.05060055620409054,
+    "rel_lift": 0.04736656122214322,
+    "ci_low": 0.02111565001823187,
+    "ci_high": 0.07361747242605457,
+    "p_value": 0.00029849194272992793,
+    "n_control": 59904,
+    "n_treatment": 60096,
+    "se_rel": 0.013393568152769741,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gifts sent per viewer",
+    "unit": "gifts",
+    "direction": 1,
+    "p_adjusted": 0.0005969838854598559,
+    "significant": true,
+    "role": "primary",
+    "true_lift": 0.050000000000000044,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gift_value",
+    "control_mean": 7.981017628205128,
+    "treatment_mean": 8.394481829073483,
+    "abs_diff": 0.4134642008683542,
+    "rel_lift": 0.051805950084254926,
+    "ci_low": 0.02392655205429414,
+    "ci_high": 0.07968534811421571,
+    "p_value": 0.00019031606878665717,
+    "n_control": 59904,
+    "n_treatment": 60096,
+    "se_rel": 0.01422444404584468,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gift value per viewer",
+    "unit": "coins",
+    "direction": 1,
+    "p_adjusted": 0.0005709482063599715,
+    "significant": true,
+    "role": "secondary",
+    "true_lift": 0.050000000000000044,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gifts_per_hour",
+    "control_mean": 0.862123166838104,
+    "treatment_mean": 0.9110187069033805,
+    "abs_diff": 0.04889554006527652,
+    "rel_lift": 0.05671526058695808,
+    "ci_low": 0.03851023269043423,
+    "ci_high": 0.07492028848348194,
+    "p_value": 3.707511803685345e-10,
+    "n_control": 59904,
+    "n_treatment": 60096,
+    "se_rel": 0.009288450216495197,
+    "method": "delta",
+    "variance_reduction": null,
+    "label": "Gifts per watch hour",
+    "unit": "gifts/h",
+    "direction": 1,
+    "p_adjusted": 2.2245070822112072e-09,
+    "significant": true,
+    "role": "secondary",
+    "true_lift": 0.050000000000000044,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "watch_min",
+    "control_mean": 74.34731987847222,
+    "treatment_mean": 73.68959132055377,
+    "abs_diff": -0.8375372871895053,
+    "rel_lift": -0.01125157039641489,
+    "ci_low": -0.023858990967811685,
+    "ci_high": 0.0013558501749819062,
+    "p_value": 0.08208151404904562,
+    "n_control": 59904,
+    "n_treatment": 60096,
+    "se_rel": 0.0064324756326353556,
+    "method": "cuped",
+    "variance_reduction": 0.459024079365123,
+    "label": "LIVE watch minutes per viewer",
+    "unit": "min",
+    "direction": 1,
+    "p_adjusted": 0.12312227107356843,
+    "significant": false,
+    "role": "secondary",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "report_rate",
+    "control_mean": 0.038127670940170943,
+    "treatment_mean": 0.03739017571884984,
+    "abs_diff": -0.000737495221321105,
+    "rel_lift": -0.01934278184676863,
+    "ci_low": -0.07536483358146379,
+    "ci_high": 0.03667926988792652,
+    "p_value": 0.5027725539665857,
+    "n_control": 59904,
+    "n_treatment": 60096,
+    "se_rel": 0.02858320467957062,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Report rate",
+    "unit": "%",
+    "direction": -1,
+    "p_adjusted": 0.5027725539665857,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "d7_retention",
+    "control_mean": 0.6421607905982906,
+    "treatment_mean": 0.639676517571885,
+    "abs_diff": -0.0024842730264055257,
+    "rel_lift": -0.0038686152483570213,
+    "ci_low": -0.012305917836336269,
+    "ci_high": 0.004568687339622226,
+    "p_value": 0.36975480261000804,
+    "n_control": 59904,
+    "n_treatment": 60096,
+    "se_rel": 0.004304825320532221,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "7-day retention",
+    "unit": "%",
+    "direction": 1,
+    "p_adjusted": 0.4437057631320096,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   }
+  ],
+  "primary_raw": {
+   "metric": "gifts",
+   "control_mean": 1.0682759081196582,
+   "treatment_mean": 1.1188764643237488,
+   "abs_diff": 0.05060055620409054,
+   "rel_lift": 0.04736656122214322,
+   "ci_low": 0.02111565001823187,
+   "ci_high": 0.07361747242605457,
+   "p_value": 0.00029849194272992793,
+   "n_control": 59904,
+   "n_treatment": 60096,
+   "se_rel": 0.013393568152769741,
+   "method": "welch",
+   "variance_reduction": null
+  },
+  "decision": {
+   "decision": "Ship",
+   "tone": "good",
+   "reasons": [
+    "Gifts sent per viewer up +4.7% (95% CI +2.1% to +7.4%); all guardrails healthy."
+   ]
+  },
+  "cumulative": [
+   {
+    "day": 1,
+    "rel_lift": 0.038247027885320195,
+    "ci_low": 0.004986483847010177,
+    "ci_high": 0.07150757192363022,
+    "p_value": 0.0217177049752752
+   },
+   {
+    "day": 2,
+    "rel_lift": 0.042970701792630406,
+    "ci_low": 0.01295815407616803,
+    "ci_high": 0.07298324950909278,
+    "p_value": 0.004215197008384174
+   },
+   {
+    "day": 3,
+    "rel_lift": 0.039495737864222225,
+    "ci_low": 0.011018202275146993,
+    "ci_high": 0.06797327345329746,
+    "p_value": 0.0056162975931126815
+   },
+   {
+    "day": 4,
+    "rel_lift": 0.046062862382545866,
+    "ci_low": 0.01808855726598081,
+    "ci_high": 0.07403716749911092,
+    "p_value": 0.0009765484934686857
+   },
+   {
+    "day": 5,
+    "rel_lift": 0.045763091869023054,
+    "ci_low": 0.018202630286529457,
+    "ci_high": 0.07332355345151664,
+    "p_value": 0.0008843397314966323
+   },
+   {
+    "day": 6,
+    "rel_lift": 0.04640447572502593,
+    "ci_low": 0.019195155129884157,
+    "ci_high": 0.07361379632016771,
+    "p_value": 0.000636433023390327
+   },
+   {
+    "day": 7,
+    "rel_lift": 0.04739521795835988,
+    "ci_low": 0.020309294758993436,
+    "ci_high": 0.07448114115772633,
+    "p_value": 0.00045552658353471544
+   },
+   {
+    "day": 8,
+    "rel_lift": 0.047857940823952116,
+    "ci_low": 0.020964278810331152,
+    "ci_high": 0.07475160283757308,
+    "p_value": 0.000361343678344126
+   },
+   {
+    "day": 9,
+    "rel_lift": 0.0468203926670121,
+    "ci_low": 0.020108876724250407,
+    "ci_high": 0.0735319086097738,
+    "p_value": 0.0004449479707596763
+   },
+   {
+    "day": 10,
+    "rel_lift": 0.04705044089542487,
+    "ci_low": 0.020335189102130304,
+    "ci_high": 0.07376569268871944,
+    "p_value": 0.0004172559798463015
+   },
+   {
+    "day": 11,
+    "rel_lift": 0.0474197477204521,
+    "ci_low": 0.02083773765602136,
+    "ci_high": 0.07400175778488284,
+    "p_value": 0.00034957484377923584
+   },
+   {
+    "day": 12,
+    "rel_lift": 0.04747126715155425,
+    "ci_low": 0.02095654105840472,
+    "ci_high": 0.07398599324470378,
+    "p_value": 0.00033256898134826203
+   },
+   {
+    "day": 13,
+    "rel_lift": 0.0466804475484528,
+    "ci_low": 0.020308330492403732,
+    "ci_high": 0.07305256460450187,
+    "p_value": 0.0003902576340228066
+   },
+   {
+    "day": 14,
+    "rel_lift": 0.04736656122214322,
+    "ci_low": 0.02111565001823187,
+    "ci_high": 0.07361747242605457,
+    "p_value": 0.00029849194272992793
+   }
+  ],
+  "peeking": {
+   "first_day_p_below_05": 1,
+   "final_p": 0.00029849194272992793
+  },
+  "segments": [
+   {
+    "dimension": "device",
+    "segment": "android_high",
+    "n": 38539,
+    "rel_lift": 0.039404727361282754,
+    "ci_low": -0.0049770822622523594,
+    "ci_high": 0.08378653698481786,
+    "p_value": 0.07583196339526882,
+    "p_adjusted": 0.16237410233463334
+   },
+   {
+    "dimension": "device",
+    "segment": "android_low",
+    "n": 58715,
+    "rel_lift": 0.027586539362055795,
+    "ci_low": -0.008565519199020613,
+    "ci_high": 0.0637385979231322,
+    "p_value": 0.1295045514191589,
+    "p_adjusted": 0.1765971155715803
+   },
+   {
+    "dimension": "device",
+    "segment": "ios",
+    "n": 22746,
+    "rel_lift": 0.08195107426730597,
+    "ci_low": 0.024485460818640108,
+    "ci_high": 0.13941668771597182,
+    "p_value": 0.003774756931288115,
+    "p_adjusted": 0.019620908616036607
+   },
+   {
+    "dimension": "country",
+    "segment": "BR",
+    "n": 16720,
+    "rel_lift": 0.10099653537073228,
+    "ci_low": 0.03299087812833355,
+    "ci_high": 0.16900219261313099,
+    "p_value": 0.0023557497208235426,
+    "p_adjusted": 0.019620908616036607
+   },
+   {
+    "dimension": "country",
+    "segment": "EG",
+    "n": 9651,
+    "rel_lift": 0.01518504492605599,
+    "ci_low": -0.0720665574846677,
+    "ci_high": 0.10243664733677968,
+    "p_value": 0.7311408313647536,
+    "p_adjusted": 0.7868829412603012
+   },
+   {
+    "dimension": "country",
+    "segment": "ID",
+    "n": 24018,
+    "rel_lift": 0.05485216890951561,
+    "ci_low": -0.001061811928655225,
+    "ci_high": 0.11076614974768645,
+    "p_value": 0.04797287057295886,
+    "p_adjusted": 0.11993217643239716
+   },
+   {
+    "dimension": "country",
+    "segment": "MX",
+    "n": 10874,
+    "rel_lift": 0.011507603253020138,
+    "ci_low": -0.0723539909568706,
+    "ci_high": 0.09536919746291088,
+    "p_value": 0.7868829412603012,
+    "p_adjusted": 0.7868829412603012
+   },
+   {
+    "dimension": "country",
+    "segment": "MY",
+    "n": 8498,
+    "rel_lift": 0.11857086295760877,
+    "ci_low": 0.016518533942967123,
+    "ci_high": 0.22062319197225042,
+    "p_value": 0.016833095021877933,
+    "p_adjusted": 0.0504992850656338
+   },
+   {
+    "dimension": "country",
+    "segment": "NG",
+    "n": 9556,
+    "rel_lift": 0.023378586826799275,
+    "ci_low": -0.06057531375577739,
+    "ci_high": 0.10733248740937594,
+    "p_value": 0.5807196273108384,
+    "p_adjusted": 0.725899534138548
+   },
+   {
+    "dimension": "country",
+    "segment": "PH",
+    "n": 13230,
+    "rel_lift": -0.011166556319346599,
+    "ci_low": -0.0833693821163334,
+    "ci_high": 0.061036269477640195,
+    "p_value": 0.7632924145220705,
+    "p_adjusted": 0.7868829412603012
+   },
+   {
+    "dimension": "country",
+    "segment": "SA",
+    "n": 7133,
+    "rel_lift": 0.08350669146228284,
+    "ci_low": -0.01595126782662787,
+    "ci_high": 0.18296465075119356,
+    "p_value": 0.08659952124513778,
+    "p_adjusted": 0.16237410233463334
+   },
+   {
+    "dimension": "country",
+    "segment": "TH",
+    "n": 9619,
+    "rel_lift": 0.0700302626259437,
+    "ci_low": -0.022850014737488725,
+    "ci_high": 0.1629105399893761,
+    "p_value": 0.1279173251935054,
+    "p_adjusted": 0.1765971155715803
+   },
+   {
+    "dimension": "country",
+    "segment": "VN",
+    "n": 10701,
+    "rel_lift": -0.06658330584583283,
+    "ci_low": -0.14424025088092204,
+    "ci_high": 0.011073639189256385,
+    "p_value": 0.10558699018829056,
+    "p_adjusted": 0.17597831698048425
+   },
+   {
+    "dimension": "is_new",
+    "segment": "False",
+    "n": 89904,
+    "rel_lift": 0.042898510268855494,
+    "ci_low": 0.013153511697272573,
+    "ci_high": 0.07264350884043841,
+    "p_value": 0.003924181723207321,
+    "p_adjusted": 0.019620908616036607
+   },
+   {
+    "dimension": "is_new",
+    "segment": "True",
+    "n": 30096,
+    "rel_lift": 0.06694621675879087,
+    "ci_low": 0.011975963176263822,
+    "ci_high": 0.12191647034131792,
+    "p_value": 0.013665032713463334,
+    "p_adjusted": 0.0504992850656338
+   }
+  ],
+  "story": "Clean win: gifting rises about 5% with no harm to guardrails."
+ },
+ {
+  "id": "EXP-102",
+  "key": "autoplay_preview",
+  "name": "Autoplay LIVE previews in feed",
+  "hypothesis": "Auto-playing a muted LIVE preview in the For You feed will pull more viewers into LIVE rooms and raise watch time.",
+  "owner_team": "LIVE Growth",
+  "primary": "watch_min",
+  "n_users": 120000,
+  "days": 14,
+  "srm": {
+   "n_control": 59944,
+   "n_treatment": 60056,
+   "treatment_share": 0.5004666666666666,
+   "chi2": 0.10453333333333334,
+   "p_value": 0.7464558237672414,
+   "passed": true
+  },
+  "metrics": [
+   {
+    "metric": "watch_min",
+    "control_mean": 73.57799162551716,
+    "treatment_mean": 79.0651363727188,
+    "abs_diff": 4.7422107996519856,
+    "rel_lift": 0.06412655981834248,
+    "ci_low": 0.05035001688928867,
+    "ci_high": 0.07790310274739629,
+    "p_value": 5.445788409331101e-21,
+    "n_control": 59944,
+    "n_treatment": 60056,
+    "se_rel": 0.007028977592303442,
+    "method": "cuped",
+    "variance_reduction": 0.44963440930853116,
+    "label": "LIVE watch minutes per viewer",
+    "unit": "min",
+    "direction": 1,
+    "p_adjusted": 2.7228942046655503e-20,
+    "significant": true,
+    "role": "primary",
+    "true_lift": 0.06,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gifts",
+    "control_mean": 1.0523822234085145,
+    "treatment_mean": 1.1327094711602503,
+    "abs_diff": 0.08032724775173583,
+    "rel_lift": 0.07632896676225442,
+    "ci_low": 0.049750572165495846,
+    "ci_high": 0.102907361359013,
+    "p_value": 5.299394968426541e-09,
+    "n_control": 59944,
+    "n_treatment": 60056,
+    "se_rel": 0.01356065458671974,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gifts sent per viewer",
+    "unit": "gifts",
+    "direction": 1,
+    "p_adjusted": 8.832324947377567e-09,
+    "significant": true,
+    "role": "secondary",
+    "true_lift": 0.06000000000000005,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gift_value",
+    "control_mean": 7.893663252368878,
+    "treatment_mean": 8.494342280538165,
+    "abs_diff": 0.6006790281692869,
+    "rel_lift": 0.0760963584288985,
+    "ci_low": 0.04782434218938821,
+    "ci_high": 0.10436837466840879,
+    "p_value": 4.479198907478731e-08,
+    "n_control": 59944,
+    "n_treatment": 60056,
+    "se_rel": 0.0144247631397905,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gift value per viewer",
+    "unit": "coins",
+    "direction": 1,
+    "p_adjusted": 5.5989986343484145e-08,
+    "significant": true,
+    "role": "secondary",
+    "true_lift": 0.06000000000000005,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "report_rate",
+    "control_mean": 0.03763512611770986,
+    "treatment_mean": 0.04730584787531637,
+    "abs_diff": 0.009670721757606512,
+    "rel_lift": 0.2569599933678921,
+    "ci_low": 0.18895712660862915,
+    "ci_high": 0.32496286012715503,
+    "p_value": 9.660235968643554e-17,
+    "n_control": 59944,
+    "n_treatment": 60056,
+    "se_rel": 0.03469597773003019,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Report rate",
+    "unit": "%",
+    "direction": -1,
+    "p_adjusted": 2.4150589921608885e-16,
+    "significant": true,
+    "role": "guardrail",
+    "true_lift": 0.25,
+    "breached": true,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "d7_retention",
+    "control_mean": 0.6431502735886828,
+    "treatment_mean": 0.6347575596110298,
+    "abs_diff": -0.008392713977653066,
+    "rel_lift": -0.013049382581807767,
+    "ci_low": -0.021445055301994146,
+    "ci_high": -0.004653709861621388,
+    "p_value": 0.0024728834698915666,
+    "n_control": 59944,
+    "n_treatment": 60056,
+    "se_rel": 0.004283585201774305,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "7-day retention",
+    "unit": "%",
+    "direction": 1,
+    "p_adjusted": 0.0024728834698915666,
+    "significant": true,
+    "role": "guardrail",
+    "true_lift": -0.015,
+    "breached": true,
+    "truth_in_ci": true
+   }
+  ],
+  "primary_raw": {
+   "metric": "watch_min",
+   "control_mean": 73.57799162551716,
+   "treatment_mean": 79.0651363727188,
+   "abs_diff": 5.48714474720164,
+   "rel_lift": 0.07457589730267489,
+   "ci_low": 0.05581504184141907,
+   "ci_high": 0.0933367527639307,
+   "p_value": 7.078232240049722e-16,
+   "n_control": 59944,
+   "n_treatment": 60056,
+   "se_rel": 0.009572040919751106,
+   "method": "welch",
+   "variance_reduction": null
+  },
+  "decision": {
+   "decision": "Don't ship",
+   "tone": "bad",
+   "reasons": [
+    "Primary metric improved +6.4%, but the trade-off is not acceptable.",
+    "Guardrail breached: Report rate moved +25.7% (adjusted p = 2.42e-16).",
+    "Guardrail breached: 7-day retention moved -1.3% (adjusted p = 0.00247)."
+   ]
+  },
+  "cumulative": [
+   {
+    "day": 1,
+    "rel_lift": 0.07222904857720369,
+    "ci_low": 0.04662993335304781,
+    "ci_high": 0.09782816380135957,
+    "p_value": 1.0940807591589506e-08
+   },
+   {
+    "day": 2,
+    "rel_lift": 0.07880271046633536,
+    "ci_low": 0.05669443130710511,
+    "ci_high": 0.1009109896255656,
+    "p_value": 4.379000144674606e-13
+   },
+   {
+    "day": 3,
+    "rel_lift": 0.08005662926283552,
+    "ci_low": 0.059204906956655215,
+    "ci_high": 0.10090835156901583,
+    "p_value": 5.8888556167451094e-15
+   },
+   {
+    "day": 4,
+    "rel_lift": 0.07847798517171145,
+    "ci_low": 0.05816068043480497,
+    "ci_high": 0.09879528990861794,
+    "p_value": 4.0972787187173355e-15
+   },
+   {
+    "day": 5,
+    "rel_lift": 0.07797195403939994,
+    "ci_low": 0.058090492025662466,
+    "ci_high": 0.09785341605313741,
+    "p_value": 1.5677088552587336e-15
+   },
+   {
+    "day": 6,
+    "rel_lift": 0.07457756556783601,
+    "ci_low": 0.05502489811605765,
+    "ci_high": 0.09413023301961437,
+    "p_value": 9.664369800800374e-15
+   },
+   {
+    "day": 7,
+    "rel_lift": 0.07356145591216223,
+    "ci_low": 0.05421376163999988,
+    "ci_high": 0.09290915018432458,
+    "p_value": 1.2211854515985264e-14
+   },
+   {
+    "day": 8,
+    "rel_lift": 0.07295153850444236,
+    "ci_low": 0.05381919092541218,
+    "ci_high": 0.09208388608347254,
+    "p_value": 1.0319314683783826e-14
+   },
+   {
+    "day": 9,
+    "rel_lift": 0.07254607208579311,
+    "ci_low": 0.05353103665996674,
+    "ci_high": 0.09156110751161949,
+    "p_value": 9.995833358465294e-15
+   },
+   {
+    "day": 10,
+    "rel_lift": 0.07281100637219917,
+    "ci_low": 0.053840106294482507,
+    "ci_high": 0.09178190644991584,
+    "p_value": 6.795802004371343e-15
+   },
+   {
+    "day": 11,
+    "rel_lift": 0.07287265601844584,
+    "ci_low": 0.05396467605526417,
+    "ci_high": 0.0917806359816275,
+    "p_value": 5.264667280294763e-15
+   },
+   {
+    "day": 12,
+    "rel_lift": 0.07306073396563728,
+    "ci_low": 0.05421444199986525,
+    "ci_high": 0.09190702593140931,
+    "p_value": 3.66312105043103e-15
+   },
+   {
+    "day": 13,
+    "rel_lift": 0.07481917766844903,
+    "ci_low": 0.05599000209124662,
+    "ci_high": 0.09364835324565145,
+    "p_value": 7.222148118557921e-16
+   },
+   {
+    "day": 14,
+    "rel_lift": 0.07457579385513124,
+    "ci_low": 0.05581493780351096,
+    "ci_high": 0.09333664990675153,
+    "p_value": 7.078871752814364e-16
+   }
+  ],
+  "peeking": {
+   "first_day_p_below_05": 1,
+   "final_p": 7.078871752814364e-16
+  },
+  "segments": [
+   {
+    "dimension": "device",
+    "segment": "android_high",
+    "n": 38611,
+    "rel_lift": 0.07702436010711322,
+    "ci_low": 0.053169240028690036,
+    "ci_high": 0.10087948018553641,
+    "p_value": 5.764091566636202e-11,
+    "p_adjusted": 2.1615343374885758e-10
+   },
+   {
+    "dimension": "device",
+    "segment": "android_low",
+    "n": 58553,
+    "rel_lift": 0.06564148789922264,
+    "ci_low": 0.045864066733689826,
+    "ci_high": 0.08541890906475545,
+    "p_value": 1.956627035899869e-11,
+    "p_adjusted": 1.4674702769249015e-10
+   },
+   {
+    "dimension": "device",
+    "segment": "ios",
+    "n": 22836,
+    "rel_lift": 0.04362414484435306,
+    "ci_low": 0.012543968706250318,
+    "ci_high": 0.0747043209824558,
+    "p_value": 0.004963008931044563,
+    "p_adjusted": 0.007444513396566844
+   },
+   {
+    "dimension": "country",
+    "segment": "BR",
+    "n": 16788,
+    "rel_lift": 0.05582310807151436,
+    "ci_low": 0.018212470624137472,
+    "ci_high": 0.09343374551889125,
+    "p_value": 0.002834287187444745,
+    "p_adjusted": 0.005314288476458897
+   },
+   {
+    "dimension": "country",
+    "segment": "EG",
+    "n": 9714,
+    "rel_lift": 0.052290848157714676,
+    "ci_low": 0.00461280167572916,
+    "ci_high": 0.09996889463970018,
+    "p_value": 0.027225442413838532,
+    "p_adjusted": 0.03403180301729817
+   },
+   {
+    "dimension": "country",
+    "segment": "ID",
+    "n": 23976,
+    "rel_lift": 0.10223443043508618,
+    "ci_low": 0.0705520372154822,
+    "ci_high": 0.13391682365469015,
+    "p_value": 3.9241772350799976e-11,
+    "p_adjusted": 1.962088617539999e-10
+   },
+   {
+    "dimension": "country",
+    "segment": "MX",
+    "n": 10872,
+    "rel_lift": 0.060513661687568554,
+    "ci_low": 0.016067047290947573,
+    "ci_high": 0.10496027608418954,
+    "p_value": 0.006024509235824385,
+    "p_adjusted": 0.008215239867033252
+   },
+   {
+    "dimension": "country",
+    "segment": "MY",
+    "n": 8423,
+    "rel_lift": 0.08279675634952532,
+    "ci_low": 0.02859966216890357,
+    "ci_high": 0.13699385053014707,
+    "p_value": 0.0018990791999032267,
+    "p_adjusted": 0.004069455428364057
+   },
+   {
+    "dimension": "country",
+    "segment": "NG",
+    "n": 9521,
+    "rel_lift": 0.07019487209302255,
+    "ci_low": 0.02140340482090338,
+    "ci_high": 0.11898633936514172,
+    "p_value": 0.003661775796369968,
+    "p_adjusted": 0.006102959660616613
+   },
+   {
+    "dimension": "country",
+    "segment": "PH",
+    "n": 13163,
+    "rel_lift": 0.062178696701900904,
+    "ci_low": 0.02232363180667845,
+    "ci_high": 0.10203376159712335,
+    "p_value": 0.001661808256349513,
+    "p_adjusted": 0.004069455428364057
+   },
+   {
+    "dimension": "country",
+    "segment": "SA",
+    "n": 7260,
+    "rel_lift": 0.040045267538083795,
+    "ci_low": -0.01273352682460887,
+    "ci_high": 0.09282406190077647,
+    "p_value": 0.12907427915883082,
+    "p_adjusted": 0.13829387052731873
+   },
+   {
+    "dimension": "country",
+    "segment": "TH",
+    "n": 9606,
+    "rel_lift": 0.023501146210515023,
+    "ci_low": -0.024689283896827403,
+    "ci_high": 0.07169157631785744,
+    "p_value": 0.3330322493625427,
+    "p_adjusted": 0.3330322493625427
+   },
+   {
+    "dimension": "country",
+    "segment": "VN",
+    "n": 10677,
+    "rel_lift": 0.04395944152668019,
+    "ci_low": -0.0014411914577349624,
+    "ci_high": 0.08936007451109534,
+    "p_value": 0.05282405359635843,
+    "p_adjusted": 0.060950831072721263
+   },
+   {
+    "dimension": "is_new",
+    "segment": "False",
+    "n": 89988,
+    "rel_lift": 0.06536025553478386,
+    "ci_low": 0.04959321131174824,
+    "ci_high": 0.08112729975781949,
+    "p_value": 5.3375286694185404e-17,
+    "p_adjusted": 8.00629300412781e-16
+   },
+   {
+    "dimension": "is_new",
+    "segment": "True",
+    "n": 30012,
+    "rel_lift": 0.05874772944373907,
+    "ci_low": 0.03127843675873151,
+    "ci_high": 0.08621702212874663,
+    "p_value": 1.6870128809383467e-05,
+    "p_adjusted": 5.06103864281504e-05
+   }
+  ],
+  "story": "Trap: watch time rises 6% but reports rise 25% and retention slips, so it should not ship."
+ },
+ {
+  "id": "EXP-103",
+  "key": "comment_ranking_ml",
+  "name": "ML ranking for LIVE comments",
+  "hypothesis": "Ranking comments with an engagement model will make rooms feel livelier and raise watch time.",
+  "owner_team": "LIVE Interaction",
+  "primary": "watch_min",
+  "n_users": 100000,
+  "days": 14,
+  "srm": {
+   "n_control": 50134,
+   "n_treatment": 49866,
+   "treatment_share": 0.49866,
+   "chi2": 0.71824,
+   "p_value": 0.39672182853461857,
+   "passed": true
+  },
+  "metrics": [
+   {
+    "metric": "watch_min",
+    "control_mean": 73.28709199345754,
+    "treatment_mean": 73.5004702602976,
+    "abs_diff": -0.13082015234674316,
+    "rel_lift": -0.0017808659690604633,
+    "ci_low": -0.015506411467601544,
+    "ci_high": 0.011944679529480617,
+    "p_value": 0.7994352245728655,
+    "n_control": 50134,
+    "n_treatment": 49866,
+    "se_rel": 0.007002958016987268,
+    "method": "cuped",
+    "variance_reduction": 0.46320327619715507,
+    "label": "LIVE watch minutes per viewer",
+    "unit": "min",
+    "direction": 1,
+    "p_adjusted": 0.9559409840425797,
+    "significant": false,
+    "role": "primary",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gifts",
+    "control_mean": 1.0415685961622851,
+    "treatment_mean": 1.0515381221674087,
+    "abs_diff": 0.009969526005123575,
+    "rel_lift": 0.009571646113234245,
+    "ci_low": -0.01692509100074912,
+    "ci_high": 0.03606838322721761,
+    "p_value": 0.4768536376514495,
+    "n_control": 50134,
+    "n_treatment": 49866,
+    "se_rel": 0.01351899184014923,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gifts sent per viewer",
+    "unit": "gifts",
+    "direction": 1,
+    "p_adjusted": 0.9559409840425797,
+    "significant": false,
+    "role": "secondary",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gift_value",
+    "control_mean": 7.874471017672637,
+    "treatment_mean": 7.880698070829824,
+    "abs_diff": 0.006227053157187079,
+    "rel_lift": 0.0007907900280808011,
+    "ci_low": -0.027274185099093882,
+    "ci_high": 0.028855765155255484,
+    "p_value": 0.9559409840425798,
+    "n_control": 50134,
+    "n_treatment": 49866,
+    "se_rel": 0.014319127978140224,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gift value per viewer",
+    "unit": "coins",
+    "direction": 1,
+    "p_adjusted": 0.9559409840425797,
+    "significant": false,
+    "role": "secondary",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "report_rate",
+    "control_mean": 0.036721586149120355,
+    "treatment_mean": 0.03842297356916536,
+    "abs_diff": 0.0017013874200450044,
+    "rel_lift": 0.04633207871620648,
+    "ci_low": -0.019328668110835404,
+    "ci_high": 0.11199282554324837,
+    "p_value": 0.15717862969022434,
+    "n_control": 50134,
+    "n_treatment": 49866,
+    "se_rel": 0.033500996622879545,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Report rate",
+    "unit": "%",
+    "direction": -1,
+    "p_adjusted": 0.7858931484511217,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "d7_retention",
+    "control_mean": 0.6433757529820082,
+    "treatment_mean": 0.64378534472386,
+    "abs_diff": 0.00040959174185173364,
+    "rel_lift": 0.0006366291237325239,
+    "ci_low": -0.008594167269138862,
+    "ci_high": 0.00986742551660391,
+    "p_value": 0.8924398060937947,
+    "n_control": 50134,
+    "n_treatment": 49866,
+    "se_rel": 0.004709676537774536,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "7-day retention",
+    "unit": "%",
+    "direction": 1,
+    "p_adjusted": 0.9559409840425797,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   }
+  ],
+  "primary_raw": {
+   "metric": "watch_min",
+   "control_mean": 73.28709199345754,
+   "treatment_mean": 73.5004702602976,
+   "abs_diff": 0.213378266840067,
+   "rel_lift": 0.0029115395499539343,
+   "ci_low": -0.015910246002151913,
+   "ci_high": 0.021733325102059782,
+   "p_value": 0.761408190479951,
+   "n_control": 50134,
+   "n_treatment": 49866,
+   "se_rel": 0.00960312827203443,
+   "method": "welch",
+   "variance_reduction": null
+  },
+  "decision": {
+   "decision": "No clear effect",
+   "tone": "neutral",
+   "reasons": [
+    "LIVE watch minutes per viewer moved -0.2% but the 95% CI (-1.6% to +1.2%) includes zero. Keep control or iterate."
+   ]
+  },
+  "cumulative": [
+   {
+    "day": 1,
+    "rel_lift": -0.0029657884993961048,
+    "ci_low": -0.028348215391772198,
+    "ci_high": 0.022416638392979988,
+    "p_value": 0.8191323622943842
+   },
+   {
+    "day": 2,
+    "rel_lift": -0.00393325687534718,
+    "ci_low": -0.026181322004147783,
+    "ci_high": 0.018314808253453423,
+    "p_value": 0.7294924111064318
+   },
+   {
+    "day": 3,
+    "rel_lift": -0.012371138668910597,
+    "ci_low": -0.03317343391209762,
+    "ci_high": 0.008431156574276427,
+    "p_value": 0.24683256578290913
+   },
+   {
+    "day": 4,
+    "rel_lift": -0.009401671401982892,
+    "ci_low": -0.029699227583068248,
+    "ci_high": 0.010895884779102465,
+    "p_value": 0.36631680020936264
+   },
+   {
+    "day": 5,
+    "rel_lift": -0.004660236246788241,
+    "ci_low": -0.024606808805505795,
+    "ci_high": 0.015286336311929313,
+    "p_value": 0.647799478559191
+   },
+   {
+    "day": 6,
+    "rel_lift": -0.0014863029227611957,
+    "ci_low": -0.02114335716275867,
+    "ci_high": 0.018170751317236278,
+    "p_value": 0.8822765471281125
+   },
+   {
+    "day": 7,
+    "rel_lift": 0.00036087436661413896,
+    "ci_low": -0.019048405682870414,
+    "ci_high": 0.019770154416098692,
+    "p_value": 0.9709251307234045
+   },
+   {
+    "day": 8,
+    "rel_lift": 0.0019066692096236793,
+    "ci_low": -0.017363419937228102,
+    "ci_high": 0.02117675835647546,
+    "p_value": 0.846087541751626
+   },
+   {
+    "day": 9,
+    "rel_lift": 0.0031779941826630687,
+    "ci_low": -0.016069460516256195,
+    "ci_high": 0.022425448881582332,
+    "p_value": 0.7458413083583006
+   },
+   {
+    "day": 10,
+    "rel_lift": 0.004685236219645228,
+    "ci_low": -0.014549446444420501,
+    "ci_high": 0.023919918883710957,
+    "p_value": 0.6322724194780976
+   },
+   {
+    "day": 11,
+    "rel_lift": 0.004528970955879119,
+    "ci_low": -0.014588410507135028,
+    "ci_high": 0.023646352418893266,
+    "p_value": 0.6416639751692629
+   },
+   {
+    "day": 12,
+    "rel_lift": 0.004489264500249668,
+    "ci_low": -0.014507292819413726,
+    "ci_high": 0.02348582181991306,
+    "p_value": 0.6424891817893981
+   },
+   {
+    "day": 13,
+    "rel_lift": 0.003353525976238947,
+    "ci_low": -0.015547074061701496,
+    "ci_high": 0.02225412601417939,
+    "p_value": 0.7275829736481985
+   },
+   {
+    "day": 14,
+    "rel_lift": 0.002911339984671857,
+    "ci_low": -0.015910441064419696,
+    "ci_high": 0.02173312103376341,
+    "p_value": 0.7614240125297898
+   }
+  ],
+  "peeking": {
+   "first_day_p_below_05": null,
+   "final_p": 0.7614240125297898
+  },
+  "segments": [
+   {
+    "dimension": "device",
+    "segment": "android_high",
+    "n": 32284,
+    "rel_lift": -0.014260742517362868,
+    "ci_low": -0.03762982283815171,
+    "ci_high": 0.009108337803425976,
+    "p_value": 0.2351916245360166,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "device",
+    "segment": "android_low",
+    "n": 48823,
+    "rel_lift": -0.004076120115364401,
+    "ci_low": -0.02397185563656784,
+    "ci_high": 0.015819615405839038,
+    "p_value": 0.6886020295002308,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "device",
+    "segment": "ios",
+    "n": 18893,
+    "rel_lift": 0.02114819566322268,
+    "ci_low": -0.010438462963193375,
+    "ci_high": 0.052734854289638734,
+    "p_value": 0.18504387001102718,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "BR",
+    "n": 13807,
+    "rel_lift": -0.011074141641433055,
+    "ci_low": -0.048840579237870343,
+    "ci_high": 0.026692295955004233,
+    "p_value": 0.5676456973625661,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "EG",
+    "n": 8004,
+    "rel_lift": -0.009602843843159792,
+    "ci_low": -0.05763721783814019,
+    "ci_high": 0.0384315301518206,
+    "p_value": 0.6967070969966467,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "ID",
+    "n": 20029,
+    "rel_lift": 0.0068912448220788125,
+    "ci_low": -0.02398018247633091,
+    "ci_high": 0.03776267212048853,
+    "p_value": 0.6607316091610591,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "MX",
+    "n": 8854,
+    "rel_lift": -0.03839044550995174,
+    "ci_low": -0.08385588546943054,
+    "ci_high": 0.007074994449527056,
+    "p_value": 0.10515430146604321,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "MY",
+    "n": 7060,
+    "rel_lift": 0.0037651301298335937,
+    "ci_low": -0.04927714637856481,
+    "ci_high": 0.056807406638232,
+    "p_value": 0.8891193525936523,
+    "p_adjusted": 0.9924975984644819
+   },
+   {
+    "dimension": "country",
+    "segment": "NG",
+    "n": 8102,
+    "rel_lift": -0.008881075247086145,
+    "ci_low": -0.05439971391535918,
+    "ci_high": 0.03663756342118689,
+    "p_value": 0.7032387041597845,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "PH",
+    "n": 11134,
+    "rel_lift": 0.012517989714905253,
+    "ci_low": -0.027491184327994515,
+    "ci_high": 0.05252716375780502,
+    "p_value": 0.5371866744755411,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "SA",
+    "n": 5984,
+    "rel_lift": 0.0015824351599773578,
+    "ci_low": -0.05562296016998407,
+    "ci_high": 0.05878783048993878,
+    "p_value": 0.9567263823024569,
+    "p_adjusted": 0.9924975984644819
+   },
+   {
+    "dimension": "country",
+    "segment": "TH",
+    "n": 8071,
+    "rel_lift": 0.02515235940794991,
+    "ci_low": -0.023821817304759657,
+    "ci_high": 0.07412653612065948,
+    "p_value": 0.30846838990611525,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "country",
+    "segment": "VN",
+    "n": 8955,
+    "rel_lift": -0.007249230676702023,
+    "ci_low": -0.052383117931768,
+    "ci_high": 0.03788465657836396,
+    "p_value": 0.7536748181178418,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "is_new",
+    "segment": "False",
+    "n": 75075,
+    "rel_lift": -0.0030935010435797494,
+    "ci_low": -0.018708939962989918,
+    "ci_high": 0.012521937875830417,
+    "p_value": 0.6982569729192097,
+    "p_adjusted": 0.9420935226473022
+   },
+   {
+    "dimension": "is_new",
+    "segment": "True",
+    "n": 24925,
+    "rel_lift": 0.00013440362549976825,
+    "ci_low": -0.02788241828757473,
+    "ci_high": 0.028151225538574267,
+    "p_value": 0.9924975984644819,
+    "p_adjusted": 0.9924975984644819
+   }
+  ],
+  "story": "Null effect: nothing really changes. Used to show how daily peeking creates false wins."
+ },
+ {
+  "id": "EXP-104",
+  "key": "beauty_filter_promo",
+  "name": "Beauty filter promotion for hosts",
+  "hypothesis": "Promoting beauty filters to hosts will make streams more attractive and raise watch time.",
+  "owner_team": "LIVE Creator Tools",
+  "primary": "watch_min",
+  "n_users": 97526,
+  "days": 14,
+  "srm": {
+   "n_control": 49588,
+   "n_treatment": 47938,
+   "treatment_share": 0.491540717347169,
+   "chi2": 27.915632754342433,
+   "p_value": 1.2672180198536185e-07,
+   "passed": false
+  },
+  "metrics": [
+   {
+    "metric": "watch_min",
+    "control_mean": 73.88667258207632,
+    "treatment_mean": 75.84519796403688,
+    "abs_diff": 1.2655959422431806,
+    "rel_lift": 0.01705028147323384,
+    "ci_low": 0.0030429145603108835,
+    "ci_high": 0.0310576483861568,
+    "p_value": 0.01612517484383677,
+    "n_control": 49588,
+    "n_treatment": 47938,
+    "se_rel": 0.007146747095054441,
+    "method": "cuped",
+    "variance_reduction": 0.4509035315918566,
+    "label": "LIVE watch minutes per viewer",
+    "unit": "min",
+    "direction": 1,
+    "p_adjusted": 0.08062587421918385,
+    "significant": false,
+    "role": "primary",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": false
+   },
+   {
+    "metric": "gifts",
+    "control_mean": 1.0711059127208196,
+    "treatment_mean": 1.0910551128541033,
+    "abs_diff": 0.019949200133283718,
+    "rel_lift": 0.01862486230013327,
+    "ci_low": -0.009102266370641845,
+    "ci_high": 0.04635199097090839,
+    "p_value": 0.18369069167002916,
+    "n_control": 49588,
+    "n_treatment": 47938,
+    "se_rel": 0.014146754169710857,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gifts sent per viewer",
+    "unit": "gifts",
+    "direction": 1,
+    "p_adjusted": 0.30615115278338195,
+    "significant": false,
+    "role": "secondary",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gift_value",
+    "control_mean": 8.047745220617891,
+    "treatment_mean": 8.13790229045851,
+    "abs_diff": 0.09015706984061822,
+    "rel_lift": 0.011202773866354487,
+    "ci_low": -0.017937023990664717,
+    "ci_high": 0.04034257172337369,
+    "p_value": 0.44849874691848235,
+    "n_control": 49588,
+    "n_treatment": 47938,
+    "se_rel": 0.01486751699871539,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gift value per viewer",
+    "unit": "coins",
+    "direction": 1,
+    "p_adjusted": 0.560623433648103,
+    "significant": false,
+    "role": "secondary",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "report_rate",
+    "control_mean": 0.036662095668306846,
+    "treatment_mean": 0.036714089031665904,
+    "abs_diff": 5.19933633590583e-05,
+    "rel_lift": 0.001418177613998317,
+    "ci_low": -0.06300146056049855,
+    "ci_high": 0.06583781578849518,
+    "p_value": 0.9655596064817763,
+    "n_control": 49588,
+    "n_treatment": 47938,
+    "se_rel": 0.03286776628684545,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Report rate",
+    "unit": "%",
+    "direction": -1,
+    "p_adjusted": 0.9655596064817763,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "d7_retention",
+    "control_mean": 0.645115753811406,
+    "treatment_mean": 0.6512161541991739,
+    "abs_diff": 0.006100400387767935,
+    "rel_lift": 0.009456288040907701,
+    "ci_low": 0.00012025528074063353,
+    "ci_high": 0.01879232080107477,
+    "p_value": 0.046097804792584865,
+    "n_control": 49588,
+    "n_treatment": 47938,
+    "se_rel": 0.004763369548526658,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "7-day retention",
+    "unit": "%",
+    "direction": 1,
+    "p_adjusted": 0.11524451198146216,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": false
+   }
+  ],
+  "primary_raw": {
+   "metric": "watch_min",
+   "control_mean": 73.88667258207632,
+   "treatment_mean": 75.84519796403688,
+   "abs_diff": 1.9585253819605697,
+   "rel_lift": 0.026507153638363645,
+   "ci_low": 0.007424447126552002,
+   "ci_high": 0.045589860150175285,
+   "p_value": 0.005796161616405852,
+   "n_control": 49588,
+   "n_treatment": 47938,
+   "se_rel": 0.009736253656870024,
+   "method": "welch",
+   "variance_reduction": null
+  },
+  "decision": {
+   "decision": "Invalid - rerun",
+   "tone": "invalid",
+   "reasons": [
+    "Sample ratio mismatch: treatment share 49.15% vs 50% expected (p = 1.3e-07). Results cannot be trusted until the assignment bug is fixed."
+   ]
+  },
+  "cumulative": [
+   {
+    "day": 1,
+    "rel_lift": 0.02845308212263764,
+    "ci_low": 0.0031152432673299084,
+    "ci_high": 0.05379092097794537,
+    "p_value": 0.025549083230812928
+   },
+   {
+    "day": 2,
+    "rel_lift": 0.02864641958031111,
+    "ci_low": 0.0065377096364266606,
+    "ci_high": 0.05075512952419556,
+    "p_value": 0.009985310643021827
+   },
+   {
+    "day": 3,
+    "rel_lift": 0.02974207833929876,
+    "ci_low": 0.00860073549431093,
+    "ci_high": 0.05088342118428659,
+    "p_value": 0.005135932463272671
+   },
+   {
+    "day": 4,
+    "rel_lift": 0.027511081471496945,
+    "ci_low": 0.007100931689458235,
+    "ci_high": 0.04792123125353566,
+    "p_value": 0.007396111762306944
+   },
+   {
+    "day": 5,
+    "rel_lift": 0.024720045010044656,
+    "ci_low": 0.004808015539446053,
+    "ci_high": 0.044632074480643255,
+    "p_value": 0.013749640746231426
+   },
+   {
+    "day": 6,
+    "rel_lift": 0.024498560029498018,
+    "ci_low": 0.004764614379443331,
+    "ci_high": 0.044232505679552704,
+    "p_value": 0.01375410426051577
+   },
+   {
+    "day": 7,
+    "rel_lift": 0.027314397176303462,
+    "ci_low": 0.007778371519831618,
+    "ci_high": 0.04685042283277531,
+    "p_value": 0.005465135156599292
+   },
+   {
+    "day": 8,
+    "rel_lift": 0.026029482694880812,
+    "ci_low": 0.006638239014752811,
+    "ci_high": 0.04542072637500881,
+    "p_value": 0.007679864951731841
+   },
+   {
+    "day": 9,
+    "rel_lift": 0.02470379476548379,
+    "ci_low": 0.005435136699856128,
+    "ci_high": 0.04397245283111145,
+    "p_value": 0.010942688066912324
+   },
+   {
+    "day": 10,
+    "rel_lift": 0.026157240315628938,
+    "ci_low": 0.006944593381840742,
+    "ci_high": 0.04536988724941714,
+    "p_value": 0.006851019163484844
+   },
+   {
+    "day": 11,
+    "rel_lift": 0.026357944129196786,
+    "ci_low": 0.007136367540627471,
+    "ci_high": 0.0455795207177661,
+    "p_value": 0.006460684896114589
+   },
+   {
+    "day": 12,
+    "rel_lift": 0.026283490203728332,
+    "ci_low": 0.0071180178402923955,
+    "ci_high": 0.04544896256716427,
+    "p_value": 0.006459971473075936
+   },
+   {
+    "day": 13,
+    "rel_lift": 0.02728437236486969,
+    "ci_low": 0.008172143889477599,
+    "ci_high": 0.04639660084026179,
+    "p_value": 0.004562250010516697
+   },
+   {
+    "day": 14,
+    "rel_lift": 0.026506751630134717,
+    "ci_low": 0.007424051982501043,
+    "ci_high": 0.045589451277768395,
+    "p_value": 0.005796892247868684
+   }
+  ],
+  "peeking": {
+   "first_day_p_below_05": 1,
+   "final_p": 0.005796892247868684
+  },
+  "segments": [
+   {
+    "dimension": "device",
+    "segment": "android_high",
+    "n": 31899,
+    "rel_lift": 0.0038468647926979127,
+    "ci_low": -0.020210384216999118,
+    "ci_high": 0.027904113802394943,
+    "p_value": 0.7534981396845477,
+    "p_adjusted": 0.9418726746056847
+   },
+   {
+    "dimension": "device",
+    "segment": "android_low",
+    "n": 46604,
+    "rel_lift": 0.032780925626441304,
+    "ci_low": 0.012172108124080365,
+    "ci_high": 0.05338974312880224,
+    "p_value": 0.0015530464429664359,
+    "p_adjusted": 0.023295696644496537
+   },
+   {
+    "dimension": "device",
+    "segment": "ios",
+    "n": 19023,
+    "rel_lift": 0.0021412131063702766,
+    "ci_low": -0.028735530255816204,
+    "ci_high": 0.03301795646855676,
+    "p_value": 0.8917582033032198,
+    "p_adjusted": 0.9513866556007388
+   },
+   {
+    "dimension": "country",
+    "segment": "BR",
+    "n": 13596,
+    "rel_lift": 0.021056430951509775,
+    "ci_low": -0.016761532497207902,
+    "ci_high": 0.05887439440022745,
+    "p_value": 0.2699556129906555,
+    "p_adjusted": 0.5784763135514047
+   },
+   {
+    "dimension": "country",
+    "segment": "EG",
+    "n": 7744,
+    "rel_lift": 0.039808959237273234,
+    "ci_low": -0.01243521814060946,
+    "ci_high": 0.09205313661515593,
+    "p_value": 0.12780156917300986,
+    "p_adjusted": 0.3411107767001898
+   },
+   {
+    "dimension": "country",
+    "segment": "ID",
+    "n": 19672,
+    "rel_lift": 0.023215874599318065,
+    "ci_low": -0.007666101413192222,
+    "ci_high": 0.054097850611828355,
+    "p_value": 0.13644431068007593,
+    "p_adjusted": 0.3411107767001898
+   },
+   {
+    "dimension": "country",
+    "segment": "MX",
+    "n": 8834,
+    "rel_lift": 0.03495323155135188,
+    "ci_low": -0.009789950222437283,
+    "ci_high": 0.07969641332514105,
+    "p_value": 0.11929159959772506,
+    "p_adjusted": 0.3411107767001898
+   },
+   {
+    "dimension": "country",
+    "segment": "MY",
+    "n": 6888,
+    "rel_lift": -0.0016718698007840427,
+    "ci_low": -0.055369350189478035,
+    "ci_high": 0.05202561058790995,
+    "p_value": 0.9513866556007388,
+    "p_adjusted": 0.9513866556007388
+   },
+   {
+    "dimension": "country",
+    "segment": "NG",
+    "n": 7783,
+    "rel_lift": -0.018094038021774117,
+    "ci_low": -0.0668396954152977,
+    "ci_high": 0.03065161937174947,
+    "p_value": 0.47059488582292897,
+    "p_adjusted": 0.7058923287343934
+   },
+   {
+    "dimension": "country",
+    "segment": "PH",
+    "n": 10574,
+    "rel_lift": 0.003432529642895865,
+    "ci_low": -0.03605036825244167,
+    "ci_high": 0.0429154275382334,
+    "p_value": 0.8644662088050102,
+    "p_adjusted": 0.9513866556007388
+   },
+   {
+    "dimension": "country",
+    "segment": "SA",
+    "n": 5833,
+    "rel_lift": 0.028734052507734864,
+    "ci_low": -0.03054689514082603,
+    "ci_high": 0.08801500015629576,
+    "p_value": 0.3343610993803564,
+    "p_adjusted": 0.6269270613381682
+   },
+   {
+    "dimension": "country",
+    "segment": "TH",
+    "n": 7901,
+    "rel_lift": 0.019402067887062335,
+    "ci_low": -0.0314309153329682,
+    "ci_high": 0.07023505110709287,
+    "p_value": 0.45033694715030237,
+    "p_adjusted": 0.7058923287343934
+   },
+   {
+    "dimension": "country",
+    "segment": "VN",
+    "n": 8701,
+    "rel_lift": 0.011101279459843738,
+    "ci_low": -0.03600311353561751,
+    "ci_high": 0.05820567245530499,
+    "p_value": 0.6422533493243621,
+    "p_adjusted": 0.8758000218059483
+   },
+   {
+    "dimension": "is_new",
+    "segment": "False",
+    "n": 73377,
+    "rel_lift": 0.014263125637265617,
+    "ci_low": -0.001641324671613261,
+    "ci_high": 0.030167575946144495,
+    "p_value": 0.07667796117236225,
+    "p_adjusted": 0.3411107767001898
+   },
+   {
+    "dimension": "is_new",
+    "segment": "True",
+    "n": 24149,
+    "rel_lift": 0.02973089324204392,
+    "ci_low": 0.0007521389436090688,
+    "ci_high": 0.05870964754047878,
+    "p_value": 0.041382001545292854,
+    "p_adjusted": 0.3103650115896964
+   }
+  ],
+  "story": "Broken: a logging bug drops low-engagement Android-low users from treatment, causing sample ratio mismatch and a fake lift."
+ },
+ {
+  "id": "EXP-105",
+  "key": "low_latency_mode",
+  "name": "Low-latency streaming mode",
+  "hypothesis": "A lighter video codec will cut buffering and raise watch time, especially on low-end phones with slow networks.",
+  "owner_team": "LIVE Infrastructure",
+  "primary": "watch_min",
+  "n_users": 150000,
+  "days": 14,
+  "srm": {
+   "n_control": 74592,
+   "n_treatment": 75408,
+   "treatment_share": 0.50272,
+   "chi2": 4.43904,
+   "p_value": 0.03512599370049966,
+   "passed": true
+  },
+  "metrics": [
+   {
+    "metric": "watch_min",
+    "control_mean": 74.09533193908194,
+    "treatment_mean": 77.77451543602801,
+    "abs_diff": 2.907247817905059,
+    "rel_lift": 0.03903215803280502,
+    "ci_low": 0.027057852679608134,
+    "ci_high": 0.051006463386001906,
+    "p_value": 7.532536129175061e-11,
+    "n_control": 74592,
+    "n_treatment": 75408,
+    "se_rel": 0.0061094517285259714,
+    "method": "cuped",
+    "variance_reduction": 0.44198341373801986,
+    "label": "LIVE watch minutes per viewer",
+    "unit": "min",
+    "direction": 1,
+    "p_adjusted": 3.766268064587531e-10,
+    "significant": true,
+    "role": "primary",
+    "true_lift": 0.04699568903085938,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gifts",
+    "control_mean": 1.0683585371085371,
+    "treatment_mean": 1.115199978782092,
+    "abs_diff": 0.04684144167355497,
+    "rel_lift": 0.043844308859392056,
+    "ci_low": 0.020781238993366292,
+    "ci_high": 0.06690737872541783,
+    "p_value": 0.0001422106979751114,
+    "n_control": 74592,
+    "n_treatment": 75408,
+    "se_rel": 0.01176708860363982,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gifts sent per viewer",
+    "unit": "gifts",
+    "direction": 1,
+    "p_adjusted": 0.00023701782995851897,
+    "significant": true,
+    "role": "secondary",
+    "true_lift": 0.04699568903085938,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "gift_value",
+    "control_mean": 7.9451658354783365,
+    "treatment_mean": 8.394923217695736,
+    "abs_diff": 0.449757382217399,
+    "rel_lift": 0.05660767711216952,
+    "ci_low": 0.031813960527144344,
+    "ci_high": 0.0814013936971947,
+    "p_value": 4.306600499720502e-06,
+    "n_control": 74592,
+    "n_treatment": 75408,
+    "se_rel": 0.01265008784885582,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Gift value per viewer",
+    "unit": "coins",
+    "direction": 1,
+    "p_adjusted": 1.0766501249301255e-05,
+    "significant": true,
+    "role": "secondary",
+    "true_lift": 0.04699568903085938,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "report_rate",
+    "control_mean": 0.03793972543972544,
+    "treatment_mean": 0.03609696583916826,
+    "abs_diff": -0.0018427596005571797,
+    "rel_lift": -0.04857071523843148,
+    "ci_low": -0.09769859253625127,
+    "ci_high": 0.0005571620593883067,
+    "p_value": 0.0587739200023556,
+    "n_control": 74592,
+    "n_treatment": 75408,
+    "se_rel": 0.02506570410749086,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "Report rate",
+    "unit": "%",
+    "direction": -1,
+    "p_adjusted": 0.07346740000294451,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   },
+   {
+    "metric": "d7_retention",
+    "control_mean": 0.6448412698412699,
+    "treatment_mean": 0.6447724379376194,
+    "abs_diff": -6.88319036504792e-05,
+    "rel_lift": -0.00010674239827646037,
+    "ci_low": -0.007618000906339978,
+    "ci_high": 0.007404516109787057,
+    "p_value": 0.977780568080372,
+    "n_control": 74592,
+    "n_treatment": 75408,
+    "se_rel": 0.003832345169253806,
+    "method": "welch",
+    "variance_reduction": null,
+    "label": "7-day retention",
+    "unit": "%",
+    "direction": 1,
+    "p_adjusted": 0.977780568080372,
+    "significant": false,
+    "role": "guardrail",
+    "true_lift": 0.0,
+    "breached": false,
+    "truth_in_ci": true
+   }
+  ],
+  "primary_raw": {
+   "metric": "watch_min",
+   "control_mean": 74.09533193908194,
+   "treatment_mean": 77.77451543602801,
+   "abs_diff": 3.6791834969460666,
+   "rel_lift": 0.049654727236675855,
+   "ci_low": 0.03345718003508068,
+   "ci_high": 0.06585227443827103,
+   "p_value": 7.559865912356885e-10,
+   "n_control": 74592,
+   "n_treatment": 75408,
+   "se_rel": 0.00826420655142613,
+   "method": "welch",
+   "variance_reduction": null
+  },
+  "decision": {
+   "decision": "Ship",
+   "tone": "good",
+   "reasons": [
+    "LIVE watch minutes per viewer up +3.9% (95% CI +2.7% to +5.1%); all guardrails healthy."
+   ]
+  },
+  "cumulative": [
+   {
+    "day": 1,
+    "rel_lift": 0.061949375567847076,
+    "ci_low": 0.03974601164835449,
+    "ci_high": 0.08415273948733966,
+    "p_value": 1.8295331793834182e-08
+   },
+   {
+    "day": 2,
+    "rel_lift": 0.04815749065007324,
+    "ci_low": 0.029199526889493496,
+    "ci_high": 0.06711545441065299,
+    "p_value": 3.457190344690095e-07
+   },
+   {
+    "day": 3,
+    "rel_lift": 0.04811414149330129,
+    "ci_low": 0.03023577336083067,
+    "ci_high": 0.06599250962577191,
+    "p_value": 6.712167529003515e-08
+   },
+   {
+    "day": 4,
+    "rel_lift": 0.05117705829793895,
+    "ci_low": 0.033580569358011195,
+    "ci_high": 0.0687735472378667,
+    "p_value": 5.21089673657581e-09
+   },
+   {
+    "day": 5,
+    "rel_lift": 0.05091756981349849,
+    "ci_low": 0.03362875786068054,
+    "ci_high": 0.06820638176631644,
+    "p_value": 3.355265010203646e-09
+   },
+   {
+    "day": 6,
+    "rel_lift": 0.04838554926606564,
+    "ci_low": 0.031488694762449476,
+    "ci_high": 0.06528240376968181,
+    "p_value": 9.233173290938382e-09
+   },
+   {
+    "day": 7,
+    "rel_lift": 0.04903197443780427,
+    "ci_low": 0.0322951801628864,
+    "ci_high": 0.06576876871272214,
+    "p_value": 4.130765865596481e-09
+   },
+   {
+    "day": 8,
+    "rel_lift": 0.048135195892055505,
+    "ci_low": 0.03152108945172541,
+    "ci_high": 0.0647493023323856,
+    "p_value": 6.182191094574515e-09
+   },
+   {
+    "day": 9,
+    "rel_lift": 0.04851186772917915,
+    "ci_low": 0.032040681399314576,
+    "ci_high": 0.06498305405904373,
+    "p_value": 3.440295266267846e-09
+   },
+   {
+    "day": 10,
+    "rel_lift": 0.04814673715730944,
+    "ci_low": 0.03175408506033589,
+    "ci_high": 0.06453938925428299,
+    "p_value": 3.820809998790376e-09
+   },
+   {
+    "day": 11,
+    "rel_lift": 0.048384511428777977,
+    "ci_low": 0.03202776048679933,
+    "ci_high": 0.06474126237075661,
+    "p_value": 2.943310742372689e-09
+   },
+   {
+    "day": 12,
+    "rel_lift": 0.04890436528898223,
+    "ci_low": 0.032609649162567034,
+    "ci_high": 0.06519908141539743,
+    "p_value": 1.7173421939593093e-09
+   },
+   {
+    "day": 13,
+    "rel_lift": 0.049546824960387204,
+    "ci_low": 0.03328880584536195,
+    "ci_high": 0.06580484407541246,
+    "p_value": 9.517891321938957e-10
+   },
+   {
+    "day": 14,
+    "rel_lift": 0.049654622071546806,
+    "ci_low": 0.033457077090392875,
+    "ci_high": 0.06585216705270074,
+    "p_value": 7.560484246947288e-10
+   }
+  ],
+  "peeking": {
+   "first_day_p_below_05": 1,
+   "final_p": 7.560484246947288e-10
+  },
+  "segments": [
+   {
+    "dimension": "device",
+    "segment": "android_high",
+    "n": 48110,
+    "rel_lift": -0.012807215978647979,
+    "ci_low": -0.03254554541312549,
+    "ci_high": 0.0069311134558295295,
+    "p_value": 0.20647069862011014,
+    "p_adjusted": 0.2580883732751377
+   },
+   {
+    "dimension": "device",
+    "segment": "android_low",
+    "n": 73282,
+    "rel_lift": 0.10158447374148794,
+    "ci_low": 0.08308927757269885,
+    "ci_high": 0.12007966991027702,
+    "p_value": 1.672344074835038e-29,
+    "p_adjusted": 2.508516112252557e-28
+   },
+   {
+    "dimension": "device",
+    "segment": "ios",
+    "n": 28608,
+    "rel_lift": -0.005117241103757664,
+    "ci_low": -0.030626520217057644,
+    "ci_high": 0.020392038009542316,
+    "p_value": 0.6948938446533928,
+    "p_adjusted": 0.801800589984684
+   },
+   {
+    "dimension": "country",
+    "segment": "BR",
+    "n": 21192,
+    "rel_lift": 0.04548962920504085,
+    "ci_low": 0.013526242910579238,
+    "ci_high": 0.07745301549950245,
+    "p_value": 0.004362265133937242,
+    "p_adjusted": 0.00817924712613233
+   },
+   {
+    "dimension": "country",
+    "segment": "EG",
+    "n": 12075,
+    "rel_lift": 0.06452676856912665,
+    "ci_low": 0.019225932743541382,
+    "ci_high": 0.10982760439471191,
+    "p_value": 0.00389853478188673,
+    "p_adjusted": 0.00817924712613233
+   },
+   {
+    "dimension": "country",
+    "segment": "ID",
+    "n": 29672,
+    "rel_lift": 0.056821448395142804,
+    "ci_low": 0.029044058020611878,
+    "ci_high": 0.08459883876967372,
+    "p_value": 3.803425538655053e-05,
+    "p_adjusted": 0.0001426284576995645
+   },
+   {
+    "dimension": "country",
+    "segment": "MX",
+    "n": 13549,
+    "rel_lift": 0.05857733363462314,
+    "ci_low": 0.01956008481115732,
+    "ci_high": 0.09759458245808897,
+    "p_value": 0.002485906216843437,
+    "p_adjusted": 0.006700739081435596
+   },
+   {
+    "dimension": "country",
+    "segment": "MY",
+    "n": 10481,
+    "rel_lift": -0.006084104865516138,
+    "ci_low": -0.051804658754606756,
+    "ci_high": 0.03963644902357448,
+    "p_value": 0.7947687616591101,
+    "p_adjusted": 0.8317030737150309
+   },
+   {
+    "dimension": "country",
+    "segment": "NG",
+    "n": 11997,
+    "rel_lift": 0.058314070597883294,
+    "ci_low": 0.013885544727204727,
+    "ci_high": 0.10274259646856186,
+    "p_value": 0.008326035390547163,
+    "p_adjusted": 0.013876725650911938
+   },
+   {
+    "dimension": "country",
+    "segment": "PH",
+    "n": 16480,
+    "rel_lift": 0.0414169642408766,
+    "ci_low": 0.005720040674907029,
+    "ci_high": 0.07711388780684617,
+    "p_value": 0.020231408424184326,
+    "p_adjusted": 0.030347112636276492
+   },
+   {
+    "dimension": "country",
+    "segment": "SA",
+    "n": 9056,
+    "rel_lift": 0.004918930281683664,
+    "ci_low": -0.04055230339731402,
+    "ci_high": 0.05039016396068135,
+    "p_value": 0.8317030737150309,
+    "p_adjusted": 0.8317030737150309
+   },
+   {
+    "dimension": "country",
+    "segment": "TH",
+    "n": 11998,
+    "rel_lift": -0.032253157774041474,
+    "ci_low": -0.07044489223739722,
+    "ci_high": 0.005938576689314266,
+    "p_value": 0.10361820013207382,
+    "p_adjusted": 0.1412975456346461
+   },
+   {
+    "dimension": "country",
+    "segment": "VN",
+    "n": 13500,
+    "rel_lift": 0.057638452196196566,
+    "ci_low": 0.0189217393225306,
+    "ci_high": 0.09635516506986253,
+    "p_value": 0.0026802956325742387,
+    "p_adjusted": 0.006700739081435596
+   },
+   {
+    "dimension": "is_new",
+    "segment": "False",
+    "n": 112604,
+    "rel_lift": 0.03531921000830818,
+    "ci_low": 0.021723107755229336,
+    "ci_high": 0.04891531226138702,
+    "p_value": 2.2290933789873402e-07,
+    "p_adjusted": 1.6718200342405051e-06
+   },
+   {
+    "dimension": "is_new",
+    "segment": "True",
+    "n": 37396,
+    "rel_lift": 0.05390292139455144,
+    "ci_low": 0.029164523589996792,
+    "ci_high": 0.07864131919910608,
+    "p_value": 1.1949473193600706e-05,
+    "p_adjusted": 5.974736596800353e-05
+   }
+  ],
+  "story": "Heterogeneous: big gains only for low-end Android users in emerging markets; machine learning finds who benefits."
+ }
+]

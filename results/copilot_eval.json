@@ -1,0 +1,205 @@
+{
+ "n_questions": 30,
+ "retrieval": {
+  "bm25": {
+   "hit@1": 0.8,
+   "hit@3": 0.9666666666666667,
+   "mrr": 0.8916666666666667
+  },
+  "dense": {
+   "hit@1": 0.8666666666666667,
+   "hit@3": 0.9666666666666667,
+   "mrr": 0.9194444444444444
+  },
+  "hybrid": {
+   "hit@1": 0.9333333333333333,
+   "hit@3": 1.0,
+   "mrr": 0.9666666666666667
+  }
+ },
+ "answer_key_fact_rate": 0.9666666666666667,
+ "backend": "extractive",
+ "out_of_scope_refusals": "2/2",
+ "rows": [
+  {
+   "question": "Should we ship the gift panel redesign?",
+   "ok": true,
+   "answer": "EXP-101 Gift panel redesign: decision 'Ship'. Gifts sent per viewer up +4.7% (95% CI +2.1% to +7.4%); all guardrails healthy. A larger, scrollable gift panel with recent gifts pinned will make gifting easier and increase gifts per viewer. [2]",
+   "top_source": "readout-exp-101#0"
+  },
+  {
+   "question": "How much did gifting go up with the new gift panel?",
+   "ok": true,
+   "answer": "EXP-101 Gifts sent per viewer: +4.7% relative change (95% CI +2.1% to +7.4%, adjusted p = 0.000597); control mean 1.07, treatment mean 1.12. Gifts sent per viewer up +4.7% (95% CI +2.1% to +7.4%); all guardrails healthy. [2] A larger, scrollable gift panel with recent gifts pinned will make gifting easier and increase gifts per viewer. [1]",
+   "top_source": "readout-exp-101#1"
+  },
+  {
+   "question": "Why are we not launching autoplay previews even though watch time increased?",
+   "ok": true,
+   "answer": "EXP-102 Autoplay LIVE previews in feed: decision 'Don't ship'. Primary metric improved +6.4%, but the trade-off is not acceptable. Guardrail breached: Report rate moved +25.7% (adjusted p = 2.42e-16). Guardrail breached: 7-day retention moved -1.3% (adjusted p = 0.00247). EXP-102 LIVE watch minutes per viewer: +6.4% relative change (95% CI +5.0% to +7.8%, adjusted p = 2.72e-20); control mean 73.6, treatment mean 79.1. Auto-playing a muted LIVE preview in the For You feed will pull more viewers into LIVE rooms and raise watch time. [1] The autoplay LIVE previews test (EXP-102) is an example: watch time rose about 6%, but reports rose about 26% and retention fell, so the recommendation is not to ship and to explore a less intrusive design, such as previews only for followed creators. [3]",
+   "top_source": "readout-exp-102#1"
+  },
+  {
+   "question": "What happened to the report rate in the autoplay test?",
+   "ok": true,
+   "answer": "EXP-102 Report rate: +25.7% relative change (95% CI +18.9% to +32.5%, adjusted p = 2.42e-16); control mean 0.0376, treatment mean 0.0473. Guardrail breached: Report rate moved +25.7% (adjusted p = 2.42e-16). [1] The autoplay LIVE previews test (EXP-102) is an example: watch time rose about 6%, but reports rose about 26% and retention fell, so the recommendation is not to ship and to explore a less intrusive design, such as previews only for followed creators. [2]",
+   "top_source": "readout-exp-102#0"
+  },
+  {
+   "question": "Did ML comment ranking change anything?",
+   "ok": true,
+   "answer": "EXP-103 ML ranking for LIVE comments: decision 'No clear effect'. LIVE watch minutes per viewer moved -0.2% but the 95% CI (-1.6% to +1.2%) includes zero. Keep control or iterate. Ranking comments with an engagement model will make rooms feel livelier and raise watch time. [1]",
+   "top_source": "readout-exp-103#1"
+  },
+  {
+   "question": "Can we trust the beauty filter promotion result?",
+   "ok": true,
+   "answer": "EXP-104 Beauty filter promotion for hosts: decision 'Invalid - rerun'. Sample ratio mismatch: treatment share 49.15% vs 50% expected (p = 1.3e-07). Results cannot be trusted until the assignment bug is fixed. Promoting beauty filters to hosts will make streams more attractive and raise watch time. [1] This is a sample ratio mismatch, so the results are not trustworthy. [3]",
+   "top_source": "readout-exp-104#1"
+  },
+  {
+   "question": "What share of users ended up in treatment for EXP-104?",
+   "ok": true,
+   "answer": "EXP-104 Beauty filter promotion for hosts: decision 'Invalid - rerun'. Sample ratio mismatch: treatment share 49.15% vs 50% expected (p = 1.3e-07). Results cannot be trusted until the assignment bug is fixed. Treatment received 49.15% of users (chi-square p = 1.3e-07). [2] In the beauty filter promotion test (EXP-104), low-engagement users on low-end Android phones were dropped from treatment, which made watch time look higher than it really was. [3]",
+   "top_source": "readout-exp-104#0"
+  },
+  {
+   "question": "Who benefits most from low-latency mode?",
+   "ok": true,
+   "answer": "EXP-105 Low-latency streaming mode: decision 'Ship'. LIVE watch minutes per viewer up +3.9% (95% CI +2.7% to +5.1%); all guardrails healthy. EXP-105 segments with a significant effect on the primary metric: device android_low +10.2%; country EG +6.5%; country MX +5.9%. The uplift model ranks these country / device segments highest: EG android_low (predicted +14%), ID android_low (predicted +13%), BR android_low (predicted +11%), VN android_low (predicted +11%). A lighter video codec will cut buffering and raise watch time, especially on low-end phones with slow networks. [2]",
+   "top_source": "readout-exp-105#0"
+  },
+  {
+   "question": "What is the overall watch time lift for the low latency codec?",
+   "ok": true,
+   "answer": "EXP-105 LIVE watch minutes per viewer: +3.9% relative change (95% CI +2.7% to +5.1%, adjusted p = 3.77e-10); control mean 74.1, treatment mean 77.8. LIVE watch minutes per viewer up +3.9% (95% CI +2.7% to +5.1%); all guardrails healthy. [2] A lighter video codec will cut buffering and raise watch time, especially on low-end phones with slow networks. [1]",
+   "top_source": "readout-exp-105#1"
+  },
+  {
+   "question": "How does CUPED reduce noise in experiments?",
+   "ok": true,
+   "answer": "CUPED (Controlled-experiment Using Pre-Experiment Data) reduces noise by using each user's behaviour before the experiment. [1] Heavy viewers stay heavy viewers, so a large part of the variation in watch time can be predicted from the pre-period and removed. [1] CUPED reduces sigma^2 by about 45% for watch time, which cuts the required sample nearly in half. [2] The planner page in the dashboard computes these numbers interactively. [2]",
+   "top_source": "cuped#0"
+  },
+  {
+   "question": "How much variance does CUPED remove for watch time?",
+   "ok": true,
+   "answer": "Heavy viewers stay heavy viewers, so a large part of the variation in watch time can be predicted from the pre-period and removed. [2] The lab uses pre-period LIVE watch minutes as the covariate for watch-time metrics. [1] CUPED removes about 45% of the variance in the experiments, so confidence intervals are roughly 25 to 30% narrower. [1] That is like running the test with almost twice as many users for free. [1]",
+   "top_source": "cuped#2"
+  },
+  {
+   "question": "Why is checking the dashboard every day and stopping early dangerous?",
+   "ok": true,
+   "answer": "A fixed-horizon test is valid only if you look at the p-value once, at the planned end. [1] If you check every day and stop the first time p < 0.05, you give chance many opportunities to cross the threshold, so the false positive rate rises well above 5%. [1] In 1,000 simulated A/A tests (no real effect) with 14 daily looks, a single check at the end gave false positives 5.0% of the time, but stopping at the first daily p < 0.05 produced a false positive in 11.9% of tests, more than double the promised rate. [2]",
+   "top_source": "peeking#0"
+  },
+  {
+   "question": "What false positive rate did daily peeking produce in the A/A simulations?",
+   "ok": true,
+   "answer": "A fixed-horizon test is valid only if you look at the p-value once, at the planned end. [2] If you check every day and stop the first time p < 0.05, you give chance many opportunities to cross the threshold, so the false positive rate rises well above 5%. [2] In 1,000 simulated A/A tests (no real effect) with 14 daily looks, a single check at the end gave false positives 5.0% of the time, but stopping at the first daily p < 0.05 produced a false positive in 11.9% of tests, more than double the promised rate. [1] Difference-in-differences with country and day fixed effects estimates +7.5% (95% CI 5.9% to 9.2%), and the simulated true effect was 7%. [3]",
+   "top_source": "peeking#1"
+  },
+  {
+   "question": "What does a sample ratio mismatch mean?",
+   "ok": true,
+   "answer": "Treatment received 49.15% of users (chi-square p = 1.3e-07). [1] This is a sample ratio mismatch, so the results are not trustworthy. [1] A sample ratio mismatch is a statistically significant deviation from the designed split. [2] It is checked with a chi-square goodness-of-fit test, and the usual alarm threshold is p < 0.001. [2]",
+   "top_source": "readout-exp-104#2"
+  },
+  {
+   "question": "Which p-value threshold flags an SRM?",
+   "ok": true,
+   "answer": "A sample ratio mismatch is a statistically significant deviation from the designed split. [1] It is checked with a chi-square goodness-of-fit test, and the usual alarm threshold is p < 0.001. [1] Treatment received 49.15% of users (chi-square p = 1.3e-07). [2] This is a sample ratio mismatch, so the results are not trustworthy. [2]",
+   "top_source": "sample-ratio-mismatch#0"
+  },
+  {
+   "question": "How do you compute the variance of gifts per watch hour?",
+   "ok": false,
+   "answer": "Metric key gifts_per_hour. [1] Gifts divided by hours watched, pooled per arm. [1] Metrics such as gifts per watch hour divide two sums: total gifts and total hours. [2] The analysis unit (hours) is not the randomisation unit (users), so treating each hour as independent understates the variance. [2]",
+   "top_source": "metric-dictionary#3"
+  },
+  {
+   "question": "Which guardrail metrics does the LIVE team use?",
+   "ok": true,
+   "answer": "Guardrails stop teams from shipping changes that win on their own goal while damaging the product. [1] In LIVE, the lab uses two guardrails: report rate (share of users reporting a stream as harmful or annoying; must not rise) and 7-day retention (share of users who come back; must not fall). [1] If teams need to monitor continuously, use sequential testing methods with adjusted boundaries, such as alpha spending or always-valid p-values. [2] The primary metric is the one the hypothesis is about and drives the ship decision. [3]",
+   "top_source": "guardrails#0"
+  },
+  {
+   "question": "How is the false discovery rate controlled across metrics?",
+   "ok": true,
+   "answer": "Within each experiment, the lab adjusts p-values with the Benjamini-Hochberg procedure, which controls the false discovery rate. [1] Segment breakdowns (device, country, new versus returning users) are adjusted separately. [1] In 1,000 simulated A/A tests (no real effect) with 14 daily looks, a single check at the end gave false positives 5.0% of the time, but stopping at the first daily p < 0.05 produced a false positive in 11.9% of tests, more than double the promised rate. [2] CUPED (Controlled-experiment Using Pre-Experiment Data) reduces noise by using each user's behaviour before the experiment. [3]",
+   "top_source": "multiple-testing#1"
+  },
+  {
+   "question": "How many users per arm do I need to detect a 3% change in watch time?",
+   "ok": true,
+   "answer": "To detect a relative lift (minimum detectable effect, MDE) with significance level alpha and power 1 - beta, each arm needs n = 2 (z_(1-alpha/2) + z_(1-beta))^2 * sigma^2 / delta^2 users, where sigma is the metric's standard deviation and delta = baseline mean * MDE. [2] In the control groups of past LIVE experiments, watch time averages about 74 minutes per user over 14 days with a standard deviation of about 115 minutes, because a few heavy viewers watch for hours. [1] Detecting a 3% relative lift with 80% power at the 5% level therefore needs about 41,900 users per arm without CUPED, and about 22,400 per arm with CUPED. [1] The formula was tested by simulation: for a 3% lift it asked for 30,511 users per arm on the simulated metric, and in 500 simulated tests of exactly that size the test was significant 79.4% of the time, matching the promised 80% power. [3]",
+   "top_source": "power-analysis#1"
+  },
+  {
+   "question": "Did the sample size formula achieve 80% power in simulation?",
+   "ok": true,
+   "answer": "To detect a relative lift (minimum detectable effect, MDE) with significance level alpha and power 1 - beta, each arm needs n = 2 (z_(1-alpha/2) + z_(1-beta))^2 * sigma^2 / delta^2 users, where sigma is the metric's standard deviation and delta = baseline mean * MDE. [3] In the control groups of past LIVE experiments, watch time averages about 74 minutes per user over 14 days with a standard deviation of about 115 minutes, because a few heavy viewers watch for hours. [2] Detecting a 3% relative lift with 80% power at the 5% level therefore needs about 41,900 users per arm without CUPED, and about 22,400 per arm with CUPED. [2] The formula was tested by simulation: for a 3% lift it asked for 30,511 users per arm on the simulated metric, and in 500 simulated tests of exactly that size the test was significant 79.4% of the time, matching the promised 80% power. [1]",
+   "top_source": "power-analysis#2"
+  },
+  {
+   "question": "What was the effect of gifting v3 in Brazil and Mexico?",
+   "ok": true,
+   "answer": "Gifting v3 launched only in Brazil and Mexico on day 30. [1] A naive before/after comparison in those countries suggests a 14.0% rise in gift revenue per DAU, but much of that is the platform-wide trend. [1] Difference-in-differences with country and day fixed effects estimates +7.5% (95% CI 5.9% to 9.2%), and the simulated true effect was 7%. [1] A larger, scrollable gift panel with recent gifts pinned will make gifting easier and increase gifts per viewer. [2]",
+   "top_source": "difference-in-differences#2"
+  },
+  {
+   "question": "Why is a simple before and after comparison misleading for the gifting rollout?",
+   "ok": true,
+   "answer": "Gifting v3 launched only in Brazil and Mexico on day 30. [1] A naive before/after comparison in those countries suggests a 14.0% rise in gift revenue per DAU, but much of that is the platform-wide trend. [1] Difference-in-differences with country and day fixed effects estimates +7.5% (95% CI 5.9% to 9.2%), and the simulated true effect was 7%. [1] A larger, scrollable gift panel with recent gifts pinned will make gifting easier and increase gifts per viewer. [2]",
+   "top_source": "difference-in-differences#2"
+  },
+  {
+   "question": "What assumption does difference-in-differences rely on?",
+   "ok": true,
+   "answer": "When a feature launches to some markets but not others, without randomisation, compare the change over time in launched markets with the change over the same period in markets without the launch. [3] Parallel trends: without the launch, treated and control markets would have moved in parallel. [1] The lab checks this with an event study, estimating week-by-week effects before the launch; pre-launch effects close to zero support the assumption. [1] Difference-in-differences with country and day fixed effects estimates +7.5% (95% CI 5.9% to 9.2%), and the simulated true effect was 7%. [2]",
+   "top_source": "difference-in-differences#1"
+  },
+  {
+   "question": "Does Creator Academy actually make creators stream more?",
+   "ok": true,
+   "answer": "Creators who joined the Creator Academy streamed 7.0 more hours per week than those who did not, but this naive gap is mostly selection. [1] After adjustment, IPW estimates +1.57 hours and doubly robust estimation +1.49 hours (95% CI 1.41 to 1.57), close to the true effect of 1.5 hours. [1] Hypothesis: Promoting beauty filters to hosts will make streams more attractive and raise watch time. [2] Primary metric: LIVE watch minutes per viewer. [2]",
+   "top_source": "propensity-methods#2"
+  },
+  {
+   "question": "Why is the naive comparison of academy joiners biased?",
+   "ok": true,
+   "answer": "Creators who joined the Creator Academy streamed 7.0 more hours per week than those who did not, but this naive gap is mostly selection. [1] After adjustment, IPW estimates +1.57 hours and doubly robust estimation +1.49 hours (95% CI 1.41 to 1.57), close to the true effect of 1.5 hours. [1] A naive before/after comparison in those countries suggests a 14.0% rise in gift revenue per DAU, but much of that is the platform-wide trend. [2] Difference-in-differences with country and day fixed effects estimates +7.5% (95% CI 5.9% to 9.2%), and the simulated true effect was 7%. [2]",
+   "top_source": "propensity-methods#2"
+  },
+  {
+   "question": "What is doubly robust estimation?",
+   "ok": true,
+   "answer": "Doubly robust estimation (AIPW) combines an outcome model with the weights and stays consistent if either model is correct. [1] After adjustment, IPW estimates +1.57 hours and doubly robust estimation +1.49 hours (95% CI 1.41 to 1.57), close to the true effect of 1.5 hours. [2] Covariate balance improves from standardised mean differences above 1.1 to below 0.03. [2] The residual is scaled with a robust z-score based on the median absolute deviation of past residuals, and days with |z| > 4 raise an alert. [3]",
+   "top_source": "propensity-methods#1"
+  },
+  {
+   "question": "How was the uplift model evaluated?",
+   "ok": true,
+   "answer": "Uplift models estimate the conditional average treatment effect (CATE) for each user from experiment data, to find who benefits and to target a feature. [1] The T-learner trains one LightGBM model on treatment users and one on control users and subtracts their predictions. [3] Models are trained on half the experiment and evaluated on the other half with a Qini (cumulative uplift) curve, compared with random targeting and with an oracle that knows the true effects. [2] Because the lab knows each user's true effect, it also reports the correlation between predicted and true effects. [2]",
+   "top_source": "uplift-modelling#0"
+  },
+  {
+   "question": "What caused the drop in watch minutes per DAU in November?",
+   "ok": true,
+   "answer": "On 16 November 2026, minutes per DAU dropped about 4% below baseline (robust z around -22) and the alert fired the same day. [1] Decomposition shows that Indonesia on low-end Android explains essentially all of the drop: that segment's watch minutes per DAU fell 38% while other segments were stable. [1] This pointed to the Android app v8.3 video player bug, which only affected low-end devices. [1] LIVE watch minutes per DAU fell 3.7% week over week (from 33.7 to 32.4 minutes). [3]",
+   "top_source": "root-cause-analysis#2"
+  },
+  {
+   "question": "How does the anomaly detector decide a day is unusual?",
+   "ok": true,
+   "answer": "The anomaly detector decides whether a day is unusual. [1] Each day, the platform metric (LIVE watch minutes per DAU) is compared with a baseline: the median of the same weekday over the previous four weeks. [1] The residual is scaled with a robust z-score based on the median absolute deviation of past residuals, and days with |z| > 4 raise an alert. [1] The anomaly detector raised the first alert on 2026-11-16, the same day the drop started. [2]",
+   "top_source": "root-cause-analysis#0"
+  },
+  {
+   "question": "What is the definition of 7-day retention?",
+   "ok": true,
+   "answer": "Metric key d7_retention. [1] Share of users who came back to LIVE in the 7 days after the window. [1] A guardrail: it must not fall. [1] Guardrails: Report rate, 7-day retention. [2]",
+   "top_source": "metric-dictionary#5"
+  }
+ ]
+}

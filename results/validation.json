@@ -1,0 +1,26 @@
+{
+ "aa_peeking": {
+  "n_sims": 1000,
+  "n_per_arm": 4000,
+  "looks": 14,
+  "fixed_horizon_false_positive_rate": 0.05,
+  "daily_peeking_false_positive_rate": 0.119,
+  "median_stop_day_when_peeking": 1.0
+ },
+ "coverage": {
+  "n_sims": 1000,
+  "true_lift": 0.03,
+  "coverage_raw": 0.941,
+  "coverage_cuped": 0.934,
+  "mean_ci_width_raw": 0.10674431052089713,
+  "mean_ci_width_cuped": 0.07474285738969934,
+  "mean_variance_reduction": 0.5090164939730826
+ },
+ "power": {
+  "mde": 0.03,
+  "n_per_arm": 30511,
+  "target_power": 0.8,
+  "observed_power": 0.794,
+  "n_sims": 500
+ }
+}

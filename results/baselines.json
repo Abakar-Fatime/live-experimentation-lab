@@ -1,0 +1,33 @@
+{
+ "watch_min": {
+  "label": "LIVE watch minutes per viewer",
+  "mean": 73.86427343281412,
+  "sd": 114.52609566947284,
+  "unit": "min",
+  "cuped_variance_reduction": 0.46509393504805496
+ },
+ "gifts": {
+  "label": "Gifts sent per viewer",
+  "mean": 1.0561078900016359,
+  "sd": 2.287495618172878,
+  "unit": "gifts"
+ },
+ "gift_value": {
+  "label": "Gift value per viewer",
+  "mean": 7.932474327050655,
+  "sd": 18.217623348983462,
+  "unit": "coins"
+ },
+ "report_rate": {
+  "label": "Report rate",
+  "mean": 0.03748704992820662,
+  "sd": 0.18995288605780994,
+  "unit": "%"
+ },
+ "d7_retention": {
+  "label": "7-day retention",
+  "mean": 0.6427143350478925,
+  "sd": 0.4792021550860882,
+  "unit": "%"
+ }
+}
