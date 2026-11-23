@@ -1,0 +1,15 @@
+flowchart LR
+    S["Simulator<br/>300k users, known truth"] --> D[("Parquet data")]
+    D --> AB["A/B engine<br/>CUPED, delta method,<br/>SRM, BH, decisions"]
+    D --> ML["Uplift models<br/>T/X-learner LightGBM"]
+    D --> CI["Causal inference<br/>DiD, IPW, AIPW"]
+    D --> MON["Monitoring<br/>anomaly + root cause"]
+    AB --> R[("Results JSON")]
+    ML --> R
+    CI --> R
+    MON --> R
+    R --> KB["Knowledge base<br/>readouts + method guides"]
+    KB --> RAG["AI copilot<br/>hybrid retrieval, results tool,<br/>LLM backend"]
+    R --> API["FastAPI backend"]
+    RAG --> API
+    API --> UI["Dashboard<br/>JavaScript + Chart.js"]

@@ -96,20 +96,9 @@ Answers contain the expected key fact in **97% (29/30)** of questions, and out-o
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    S[Simulator<br/>300k users, known truth] --> D[(Parquet data)]
-    D --> AB[A/B engine<br/>CUPED, delta method,<br/>SRM, BH, decisions]
-    D --> ML[Uplift models<br/>T/X-learner LightGBM]
-    D --> CI[Causal<br/>DiD, IPW, AIPW]
-    D --> MON[Monitoring<br/>anomaly + root cause]
-    AB & ML & CI & MON --> R[(results/*.json)]
-    R --> KB[Knowledge base<br/>readouts + method guides]
-    KB --> RAG[Copilot<br/>hybrid retrieval + results tool<br/>+ LLM backend]
-    R --> API[FastAPI]
-    RAG --> API
-    API --> UI[Dashboard<br/>JS + Chart.js]
-```
+![Architecture](docs/architecture.png)
+
+<sub>Diagram source: [docs/architecture.mmd](docs/architecture.mmd) (Mermaid)</sub>
 
 ## Quick start
 
